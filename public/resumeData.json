@@ -15,12 +15,14 @@
       {
         "name": "linkedin",
         "url": "https://www.linkedin.com/in/franco-mischuk-125a46149/",
-        "className": "fa fa-linkedin"
+        "faPrefix": "fab",
+        "faIcon": "linkedin"
       },
       {
         "name": "github",
         "url": "https://github.com/Frachuk",
-        "className": "fa fa-github"
+        "faPrefix": "fab",
+        "faIcon": "github"
       }
     ]
   },

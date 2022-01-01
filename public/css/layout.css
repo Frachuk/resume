@@ -600,7 +600,6 @@ ul#nav li.current a { color: #F06000; }
 }
 #call-to-action h1 span { display: none; }
 #call-to-action .header-col h1:before {
-   font-family: 'FontAwesome';
    content: "\f0ac";
 	padding-right: 10px;
 	font-size: 72px;
@@ -668,7 +667,6 @@ call-to-action .button {
 #testimonials h1 span { display: none; }
 #testimonials .header-col { padding-top: 9px; }
 #testimonials .header-col h1:before {
-   font-family: 'FontAwesome';
    content: "\f10d";
 	padding-right: 10px;
 	font-size: 72px;
@@ -813,7 +811,6 @@ call-to-action .button {
 }
 #contact h1 span { display: none; }
 #contact h1:before {
-   font-family: 'FontAwesome';
    content: "\f0e0";
 	padding-right: 10px;
 	font-size: 72px;

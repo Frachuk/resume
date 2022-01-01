@@ -1,14 +1,15 @@
 /* eslint-disable react/prop-types */
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Component } from 'react';
 
 export class Header extends Component {
   render() {
     const { name, occupation, description, city, social = [] } = this.props?.data || {};
 
-    const networks = social.map(({ name, url, className }) => (
+    const networks = social.map(({ name, url, faPrefix, faIcon }) => (
       <li key={name}>
         <a href={url}>
-          <i className={className}></i>
+          <FontAwesomeIcon icon={[faPrefix, faIcon]} />
         </a>
       </li>
     ));
