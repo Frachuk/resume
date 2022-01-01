@@ -1,0 +1,63 @@
+{
+  "main": {
+    "name": "Franco Mischuk",
+    "occupation": "Platform engineer/Backend Developer",
+    "description": "As a perfectionist my objective always was to be able to work for an encouraging and stable company that will assist me in developing, improving, and obtaining the necessary skills in order to become the best software developer possible.",
+    "profilePicture": "./resume/images/profilepic.jpg",
+    "bio": "I am a restless person when it comes to working or improving as a professional, I always try to do my best and in the best way possible.",
+    "email": "mischuk.ti@gmail.com",
+    "phone": "+54 9 223 518-1256",
+    "address": {
+      "city": "Mar Del Plata",
+      "state": "Buenos Aires"
+    },
+    "social": [
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/franco-mischuk-125a46149/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/Frachuk",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "education": [
+      {
+        "school": "National Technological University",
+        "degree": "Superior Technician in Programming",
+        "graduated": "2018",
+        "description": "I started right after I finished technician school. At the same that I was studying here, I also was working as a technician at the local Casino. Here I improve my knowledge about the foundation that I learned on the school"
+      },
+      {
+        "school": "High Technician School N ° 5",
+        "degree": "Computer Technician",
+        "graduated": "2015",
+        "description": "Here I made my first steps on the programming world"
+      }
+    ],
+    "work": [
+      {
+        "company": "GlobalLogic",
+        "title": "Platform & Software Engineer",
+        "years": "Aug. 2020 - Present.",
+        "description": "With a solid foundation in Software Development, I joined a platform Team in GlobalLogic, Since then I am developing templates for internal uses, I take interviews for potential new team members and help them with the onboarding on the platform."
+      },
+      {
+        "company": "Avalith",
+        "title": "Fullstack Developer",
+        "years": "Mar. 2019 - Aug. 2020",
+        "description": "I joined Avalith team as a Full Stack Developer. Besides the projects that I was working on, I was in charge of the interviews and the training of the new company candidates."
+      },
+      {
+        "company": "Boldt S.A",
+        "title": "Technician",
+        "years": "Apr. 2015 - Jun. 2018",
+        "description": "I worked setting up the slot machines, from the hardware until the final software configuration."
+      }
+    ]
+  }
+}

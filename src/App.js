@@ -1,16 +1,42 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import { About } from './views/components/About';
+import { Footer } from './views/components/Footer';
+import { Header } from './views/components/Header';
+import { Resume } from './views/components/Resume';
 
-export const App = () => (
-  <div className='App'>
-    <header className='App-header'>
-      <img src={logo} className='App-logo' alt='logo' />
-      <p>
-        Edit <code>src/App.js</code> and save to reload. Updated
-      </p>
-      <a className='App-link' href='https://reactjs.org' target='_blank' rel='noopener noreferrer'>
-        Learn React
-      </a>
-    </header>
-  </div>
-);
+export class App extends React.Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      resumeData: {},
+    };
+  }
+
+  async getResumeData() {
+    const resumeData = await (await fetch('./resume/resumeData.json')).json();
+    this.setState({ resumeData });
+
+    return resumeData;
+  }
+
+  componentDidMount() {
+    this.getResumeData();
+  }
+
+  render() {
+    const {
+      resumeData: { main: mainData, resume: resumeData },
+    } = this.state;
+
+    return (
+      <div className='App'>
+        <Header data={mainData} />
+        <About data={mainData} />
+        <Resume data={resumeData} />
+        <Footer data={mainData} />
+      </div>
+    );
+  }
+}
