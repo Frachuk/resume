@@ -1,8 +1,42 @@
+/* eslint-disable no-unused-vars */
 /* eslint-disable react/prop-types */
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Component } from 'react';
 
 export class Header extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = { className: 'opaque-initial', headerHeight: 0 };
+    this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
+  }
+
+  listenScrollEvent = _e => {
+    const verticalPosition = window.scrollY;
+
+    if (verticalPosition > 400) {
+      this.setState({ className: 'opaque' });
+    } else if (verticalPosition === 0) {
+      this.setState({ className: 'opaque-initial' });
+    } else {
+      this.setState({ className: 'hidden' });
+    }
+  };
+
+  componentDidMount() {
+    this.updateWindowDimensions();
+    window.addEventListener('resize', this.updateWindowDimensions);
+    window.addEventListener('scroll', this.listenScrollEvent);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('resize', this.updateWindowDimensions);
+  }
+
+  updateWindowDimensions() {
+    this.setState({ headerHeight: window.innerHeight });
+  }
+
   render() {
     const { name, occupation, description, city, social = [] } = this.props?.data || {};
 
@@ -15,8 +49,8 @@ export class Header extends Component {
     ));
 
     return (
-      <header id='home'>
-        <nav id='nav-wrap'>
+      <header id='home' style={{ height: `${this.state.headerHeight}px` }}>
+        <nav id='nav-wrap' className={this.state.className}>
           <a className='mobile-btn' href='#nav-wrap' title='Show navigation'>
             Show navigation
           </a>
