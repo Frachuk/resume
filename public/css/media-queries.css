@@ -164,6 +164,7 @@
       padding-top: 6px;
    }
    header .banner-text h1 { font: 68px/1.1em 'opensans-bold', sans-serif; }
+   header .banner-name h1 { font: 68px/1.1em 'opensans-bold', sans-serif; }
    header .banner-text h3 {
       font: 16px/1.9em 'librebaskerville-regular', serif;
       width: 85%;
