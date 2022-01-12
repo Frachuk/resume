@@ -63,10 +63,10 @@
     ],
     "projects": [
       {
-        "partner": "Gamestop",
+        "partner": "eCommerce",
         "name": "Launchpad templates generator",
         "years": "Aug. 2020 - Present",
-        "description": "A CLI tool built with yeoman generates basic rest API (on the most common scenario). It comes with a fully configured pipeline to be deployed with a CI/CD strategy.",
+        "description": "A CLI tool built with yeoman that generates basic rest API (on the most common scenario). It comes with a fully configured pipeline to be deployed with a CI/CD strategy.",
         "techStack": [
           "Node",
           "React",
@@ -91,7 +91,7 @@
         ]
       },
       {
-        "partner": "Gamestop",
+        "partner": "eCommerce",
         "name": "Hyperion PBCS",
         "years": "Sept. 2020 - Jan. 2022",
         "description": "A service to be able to parse from an s3 file into a CSV that has a unique format to be imported on a business program for the eCommerce team.",
@@ -107,7 +107,7 @@
         ]
       },
       {
-        "partner": "Gamestop",
+        "partner": "eCommerce",
         "name": "Narvar Shipment Processor",
         "years": "Sept. 2020 - Jan. 2022",
         "description": "An application to handle a write event on an s3 bucket that generates a shipment order with the file content uploaded on the bucket.",
