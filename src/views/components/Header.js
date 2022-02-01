@@ -80,7 +80,7 @@ export class Header extends Component {
           <div className='banner-text'>
             <h1 className='banner-name'>I&apos;m {name}.</h1>
             <h3>
-              I&apos;m a {city} based <span>{occupation}</span>. {description}.
+              I&apos;m a {city} based <span>{occupation}</span>. {description}
             </h3>
             <hr />
             <ul className='social'>{networks}</ul>
