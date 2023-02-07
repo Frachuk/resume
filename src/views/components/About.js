@@ -6,11 +6,13 @@ export class About extends Component {
     const { address, name, profilePicture, bio, phone, email } = this.props.data || {};
     const { city, state } = address || {};
 
+    const profilePictureUrl = `${process.env.PUBLIC_URL}${profilePicture}`;
+
     return (
       <section id='about'>
         <div className='row'>
           <div className='three columns'>
-            <img className='profile-pic' src={profilePicture} alt='Franco Mischuk Profile Pic' />
+            <img className='profile-pic' src={profilePictureUrl} alt='Franco Mischuk Profile Pic' />
           </div>
           <div className='nine columns main-col'>
             <h2>About Me</h2>
