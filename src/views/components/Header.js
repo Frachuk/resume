@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 /* eslint-disable react/prop-types */
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Component } from 'react';
@@ -11,7 +10,7 @@ export class Header extends Component {
     this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
   }
 
-  listenScrollEvent = _e => {
+  listenScrollEvent = () => {
     const verticalPosition = window.scrollY;
 
     if (verticalPosition > 400) {
@@ -38,7 +37,7 @@ export class Header extends Component {
   }
 
   render() {
-    const { name, occupation, description, city, social = [] } = this.props?.data || {};
+    const { name, occupation, description, address: { city } = {}, social = [] } = this.props?.data || {};
 
     const networks = social.map(({ name, url, faPrefix, faIcon }) => (
       <li key={name}>
