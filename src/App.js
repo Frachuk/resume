@@ -15,7 +15,7 @@ export class App extends React.Component {
   }
 
   async getResumeData() {
-    const resumeData = await (await fetch('./resumeData.json')).json();
+    const resumeData = await (await fetch(`${process.env.PUBLIC_URL}/resumeData.json`)).json();
     this.setState({ resumeData });
 
     return resumeData;
