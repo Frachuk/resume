@@ -1,5 +1,7 @@
+/* eslint-disable no-unused-vars */
 /* eslint-disable react/prop-types */
 import { Component } from 'react';
+import { Col, Container, Image, Row } from 'react-bootstrap';
 
 export class About extends Component {
   render() {
@@ -9,35 +11,36 @@ export class About extends Component {
     const profilePictureUrl = `${process.env.PUBLIC_URL}${profilePicture}`;
 
     return (
-      <section id='about'>
-        <div className='row'>
-          <div className='three columns'>
-            <img className='profile-pic' src={profilePictureUrl} alt='Franco Mischuk Profile Pic' />
-          </div>
-          <div className='nine columns main-col'>
-            <h2>About Me</h2>
-            <p>{bio}</p>
-            <div className='row'>
-              <div className='columns contact-details'>
-                <h2>Contact Details</h2>
-                <p className='address'>
+      <div className='about p-5'>
+        <Container fluid='md' id='about'>
+          <Row className='align-items-center'>
+            <Col md='2'>
+              <Image fluid roundedCircle width={200} height={200} src={profilePictureUrl} alt='Franco Mischuk Profile Pic'></Image>
+            </Col>
+            <Col md='10'>
+              <h2>About Me</h2>
+              <p>{bio}</p>
+              <h2>Contact Details</h2>
+              <ul>
+                <li>
                   <span>{name}</span>
-                  <br />
+                </li>
+                <li>
                   <span>
-                    {city}
-                    <br />
-                    {state}
+                    {state} - {city}
                   </span>
-                  <br />
+                </li>
+                <li>
                   <span>{phone}</span>
-                  <br />
+                </li>
+                <li>
                   <span>{email}</span>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+                </li>
+              </ul>
+            </Col>
+          </Row>
+        </Container>
+      </div>
     );
   }
 }

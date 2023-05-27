@@ -1,6 +1,8 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable react/prop-types */
 import { Component } from 'react';
+import Tab from 'react-bootstrap/Tab';
+import Tabs from 'react-bootstrap/Tabs';
 
 export class Resume extends Component {
   render() {
@@ -17,7 +19,7 @@ export class Resume extends Component {
     ));
 
     const parsedWork = work.map(({ company, title, years, description }) => (
-      <div key={company}>
+      <div key={`${company}-${title}`}>
         <h3>{company}</h3>
         <p className='info'>
           {title}
@@ -38,16 +40,31 @@ export class Resume extends Component {
         <p>{description}</p>
         <em className='info'>Tech Stack</em>
         <ul>
-          {techStack.map(tech => {
-            const key = `${tech}-${partner}-${name}`;
-            return <span key={key}> &bull; {tech} </span>;
-          })}
+          {techStack.map(tech => (
+            <span key={`${tech}-${partner}-${name}`}> &bull; {tech} </span>
+          ))}
         </ul>
       </div>
     ));
 
     return (
       <section id='resume'>
+        <div className='row tech-stack'>
+          <div className='three columns header-col'>
+            <Tabs defaultActiveKey='profile' id='uncontrolled-tab-example' className='mb-3'>
+              <Tab eventKey='home' title='Home'>
+                Tab content for Home
+              </Tab>
+              <Tab eventKey='profile' title='Profile'>
+                Tab content for Profile
+              </Tab>
+              <Tab eventKey='contact' title='Contact' disabled>
+                Tab content for Contact
+              </Tab>
+            </Tabs>
+          </div>
+        </div>
+
         <div className='row education'>
           <div className='three columns header-col'>
             <h1>

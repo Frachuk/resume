@@ -2,7 +2,7 @@
   "main": {
     "name": "Franco Mischuk",
     "occupation": "Sr. Platform engineer/Backend Developer",
-    "description": "As a perfectionist my objective always is to be able to work for an encouraging and stable company that will assist me in developing, improving, and obtaining the necessary skills in order to become the best software developer possible.",
+    "description": "As a perfectionist, my objective always is to be able to work for an encouraging and stable company that will assist me in developing, improving, and obtaining the necessary skills in order to become the best software developer possible.",
     "profilePicture": "/images/profilepic.jpg",
     "bio": "I am a restless person when it comes to working or improving as a professional, I always try to do my best and in the best way possible.",
     "email": "mischuk.ti@gmail.com",
@@ -44,8 +44,14 @@
     "work": [
       {
         "company": "GlobalLogic",
-        "title": "Platform & Software Engineer",
-        "years": "Aug. 2020 - Present.",
+        "title": "Backend Software Engineer",
+        "years": "Dec. 2022 - Present.",
+        "description": "Currently working for AMC Networks as a Backend Software engineer helping editorial/manifest/front-end teams to enrich the data shown on the web."
+      },
+      {
+        "company": "GlobalLogic",
+        "title": "Platform & Backend Software Engineer",
+        "years": "Aug. 2020 - Dec. 2022.",
         "description": "With a solid foundation in Software Development, I joined a platform Team in GlobalLogic, Since then I am developing templates for internal uses, I take interviews for potential new team members and help them with the onboarding on the platform."
       },
       {
@@ -63,9 +69,39 @@
     ],
     "projects": [
       {
-        "partner": "eCommerce",
+        "partner": "AMC Networks",
+        "name": "Ingest Script",
+        "years": "Dec. 2022 - Present",
+        "description": "The main purpose is to fetch streaming schedule data from Nielsen, and extend the data from a CMS",
+        "techStack": [
+          "Node",
+          "AWS Batch",
+          "CloudWatch",
+          "FTP",
+          "Cloudinary",
+          "Splunk"
+        ]
+      },
+      {
+        "partner": "AMC Networks",
+        "name": "Universal Search",
+        "years": "Dec. 2022 - Present",
+        "description": "Node.Js ETL Service that uses a third party integration and put the parsed content in a s3 bucket",
+        "techStack": [
+          "Node",
+          "Express",
+          "Xls",
+          "Kafka",
+          "AWS",
+          "CloudWatch",
+          "Stoplight",
+          "Splunk"
+        ]
+      },
+      {
+        "partner": "GameStop",
         "name": "Launchpad templates generator",
-        "years": "Aug. 2020 - Present",
+        "years": "Aug. 2020 - Dec. 2022",
         "description": "A CLI tool built with yeoman that generates basic rest API (on the most common scenario). It comes with a fully configured pipeline to be deployed with a CI/CD strategy.",
         "techStack": [
           "Node",
@@ -91,10 +127,10 @@
         ]
       },
       {
-        "partner": "eCommerce",
+        "partner": "GameStop",
         "name": "Hyperion PBCS",
         "years": "Sept. 2020 - Jan. 2022",
-        "description": "A service to be able to parse from an s3 file into a CSV that has a unique format to be imported on a business program for the eCommerce team.",
+        "description": "A service to be able to parse from an s3 file into a CSV that has a unique format to be imported on a business program for the GameStop team.",
         "techStack": [
           "Node",
           "Express",
@@ -107,7 +143,7 @@
         ]
       },
       {
-        "partner": "eCommerce",
+        "partner": "GameStop",
         "name": "Narvar Shipment Processor",
         "years": "Sept. 2020 - Jan. 2022",
         "description": "An application to handle a write event on an s3 bucket that generates a shipment order with the file content uploaded on the bucket.",

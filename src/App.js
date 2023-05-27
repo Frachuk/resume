@@ -1,9 +1,9 @@
 import React from 'react';
-import './App.css';
 import { About } from './views/components/About';
 import { Footer } from './views/components/Footer';
 import { Header } from './views/components/Header';
 import { Resume } from './views/components/Resume';
+import { Description } from './views/components/Description';
 
 export class App extends React.Component {
   constructor(props) {
@@ -33,6 +33,7 @@ export class App extends React.Component {
     return (
       <div className='App'>
         <Header data={mainData} />
+        <Description data={mainData} />
         <About data={mainData} />
         <Resume data={resumeData} />
         <Footer data={mainData} />
