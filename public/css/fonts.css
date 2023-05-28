@@ -4,6 +4,11 @@
 }
 
 @font-face {
-  font-family: 'Open_Sans';
+  font-family: 'Libre_Baskerville-italic';
+  src: local('Libre_Baskerville'), url(../fonts/Libre_Baskerville/LibreBaskerville-Italic.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Open_Sans-bold';
   src: local('Open_Sans'), url(../fonts/Open_Sans/static/OpenSans-Bold.ttf) format('truetype');
 }

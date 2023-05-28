@@ -18,7 +18,7 @@
 
 .description h1 {
   color: #fff;
-  font-family: 'Open_Sans';
+  font-family: 'Open_Sans-bold', serif;
 }
 
 .description h3 {
@@ -64,22 +64,53 @@
 
 .about {
   text-align: left;
-  background-color: #2b2b2b;
+  background-color: rgb(32, 35, 36);
 }
 
 .about ul {
   list-style-type: none;
   padding: 0;
-  color: #7a7a7a;
+  color: rgb(159, 151, 139);
 }
 
 .about h2 {
-  font: 22px/30px 'Open_sans', sans-serif;
+  font: 22px/30px 'Open_Sans-bold', sans-serif;
   color: #fff;
 }
 
 .about p {
-  color: #7a7a7a;
+  color: rgb(159, 151, 139);
 }
 
 /* About */
+
+/* Resume */
+
+.resume {
+  background-color: rgb(24, 26, 27);
+  color: rgb(159, 151, 139);
+}
+
+.resume h1 {
+  border-bottom: 3px solid #11abb0;
+  font: 18px/24px 'Open_Sans-bold', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.resume h3 {
+  font: 25px/30px 'Open_Sans-bold', sans-serif;
+  text-align: left;
+}
+
+.resume p {
+  text-align: left;
+}
+
+.resume .info {
+  font: 16px/24px 'Libre_Baskerville-italic', serif;
+  color: #6e7881;
+  margin-bottom: 18px;
+  margin-top: 9px;
+  text-align: left;
+}

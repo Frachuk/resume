@@ -27,7 +27,7 @@ export class Description extends Component {
             <Col md={{ offset: 2, span: 8 }}>
               <h1>I&apos;m {name}.</h1>
               <h3>
-                I&apos;m a {city} based <span>{occupation}</span>. {description}
+                I&apos;m a <span>{occupation}</span> based in <span>{city}</span>. {description}
               </h3>
               <ul className='social'>{networks}</ul>
             </Col>
