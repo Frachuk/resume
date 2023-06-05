@@ -1,9 +1,8 @@
-/* eslint-disable no-unused-vars */
-/* eslint-disable react/prop-types */
 import { Component } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
+import PropTypes from 'prop-types';
 
 export class Resume extends Component {
   render() {
@@ -51,56 +50,54 @@ export class Resume extends Component {
       </Row>
     ));
 
-    const parsedProjects = projects.map(({ partner, name, years, description, techStack }) => (
-      <div key={name}>
-        <h3>
-          {partner} - {name}
-        </h3>
-        <p className='info'>
-          <span>&bull;</span> <em className='date'>{years}</em>
-        </p>
-        <p>{description}</p>
-        <em className='info'>Tech Stack</em>
-        <ul>
-          {techStack.map(tech => (
-            <span key={`${tech}-${partner}-${name}`}> &bull; {tech} </span>
+    const roles = [...new Set(projects.map(({ rol }) => rol))];
+
+    const parsedTabs = roles.map(rol => (
+      <Tab eventKey={rol} title={rol} key={rol}>
+        {projects
+          .filter(({ rol: projectRol }) => projectRol === rol)
+          .map(({ partner, name, years, description, techStack, webPage }) => (
+            <div key={name}>
+              <h3>
+                {partner} - {name}
+              </h3>
+              <p className='info'>
+                <span>&bull;</span> <em className='date'>{years}</em>
+              </p>
+              <p>{description}</p>
+              <em className='info'>Tech Stack</em>
+              <ul>
+                {techStack.map(tech => (
+                  <span key={`${tech}-${partner}-${name}`}> &bull; {tech} </span>
+                ))}
+              </ul>
+              <>{webPage && <a href={webPage}>{webPage}</a>}</>
+            </div>
           ))}
-        </ul>
-      </div>
+      </Tab>
     ));
 
     return (
-      <div className='resume p-5'>
+      <div className='resume p-5' id='resume'>
         <Container fluid='md'>{parsedEducation}</Container>
         <Container fluid='md'>{parsedWork}</Container>
+        <Container fluid='md'>
+          <Row>
+            <Col md='2' className='d-flex justify-content-center'>
+              <h1 style={{ height: 'fit-content' }}>Projects</h1>
+            </Col>
+            <Col md={{ offset: 0, span: 0 }}>
+              <Tabs defaultActiveKey='Backend Developer' id='uncontrolled-tab-example' className='mb-3'>
+                {parsedTabs}
+              </Tabs>
+            </Col>
+          </Row>
+        </Container>
       </div>
-      // <section id='resume'>
-      //   <div className='row tech-stack'>
-      //     <div className='three columns header-col'>
-      //       <Tabs defaultActiveKey='profile' id='uncontrolled-tab-example' className='mb-3'>
-      //         <Tab eventKey='home' title='Home'>
-      //           Tab content for Home
-      //         </Tab>
-      //         <Tab eventKey='profile' title='Profile'>
-      //           Tab content for Profile
-      //         </Tab>
-      //         <Tab eventKey='contact' title='Contact' disabled>
-      //           Tab content for Contact
-      //         </Tab>
-      //       </Tabs>
-      //     </div>
-      //   </div>
-
-      //   <div className='row projects'>
-      //     <div className='three columns header-col'>
-      //       <h1>
-      //         <span>Projects</span>
-      //       </h1>
-      //     </div>
-
-      //     <div className='nine columns main-col'>{parsedProjects}</div>
-      //   </div>
-      // </section>
     );
   }
 }
+
+Resume.propTypes = {
+  data: PropTypes.object,
+};

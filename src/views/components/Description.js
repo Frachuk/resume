@@ -1,8 +1,8 @@
-/* eslint-disable react/prop-types */
 import { faArrowCircleDown } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Component } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
+import PropTypes from 'prop-types';
 
 export class Description extends Component {
   constructor(props) {
@@ -21,8 +21,8 @@ export class Description extends Component {
     ));
 
     return (
-      <div className='description'>
-        <Container fluid='md' id='home'>
+      <div className='description' id='home'>
+        <Container fluid='md'>
           <Row>
             <Col md={{ offset: 2, span: 8 }}>
               <h1>I&apos;m {name}.</h1>
@@ -48,3 +48,7 @@ export class Description extends Component {
     );
   }
 }
+
+Description.propTypes = {
+  data: PropTypes.object,
+};

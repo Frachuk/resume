@@ -70,9 +70,10 @@
     "projects": [
       {
         "partner": "AMC Networks",
+        "rol": "Backend Developer",
         "name": "Ingest Script",
         "years": "Dec. 2022 - Present",
-        "description": "The main purpose is to fetch streaming schedule data from Nielsen, and extend the data from a CMS",
+        "description": "As a Backend Developer at AMC Networks, I am currently working on the Ingest Script project. This project aims to develop a script that fetches streaming schedule data from Nielsen, a trusted source, and extends the data using a Content Management System (CMS). The script is built using Node.js and utilizes AWS Batch for scalable and efficient execution. CloudWatch is used for monitoring and logging, while FTP is employed to fetch the data from Nielsen. The extended data is stored and managed using Cloudinary, and Splunk is utilized for centralized logging and analysis. With the Ingest Script project, AMC Networks aims to automate the process of fetching and extending streaming schedule data, ensuring accurate and up-to-date information for their content management system.",
         "techStack": [
           "Node",
           "AWS Batch",
@@ -84,9 +85,10 @@
       },
       {
         "partner": "AMC Networks",
+        "rol": "Backend Developer",
         "name": "Universal Search",
         "years": "Dec. 2022 - Present",
-        "description": "Node.Js ETL Service that uses a third party integration and put the parsed content in a s3 bucket",
+        "description": "As a Backend Developer at AMC Networks, I am currently working on the Universal Search project. This project involves the development of a Node.js ETL service that utilizes a third-party integration to parse content, which is then stored in an S3 bucket. The project leverages a tech stack that includes Node.js, Express, Xls for content parsing, Kafka for event-driven data processing, and various AWS services such as CloudWatch for monitoring. Additionally, Stoplight is used for API documentation, and Splunk is employed for centralized logging and analysis. With the Universal Search project, AMC Networks aims to enhance search capabilities by efficiently extracting, transforming, and storing data, ensuring optimal performance and reliability throughout the system.",
         "techStack": [
           "Node",
           "Express",
@@ -99,10 +101,37 @@
         ]
       },
       {
+        "partner": "Myself",
+        "rol": "Frontend Developer",
+        "name": "This resume",
+        "years": "N/A - Present",
+        "description": "I created my own resume page using React, implementing the Bootstrap grid system and custom CSS for a visually appealing and responsive layout. Leveraging React's capabilities, I built a dynamic and interactive resume page that effectively showcases my skills and experiences. By utilizing the Bootstrap grid system, I ensured a responsive design that adapts seamlessly to various screen sizes and devices. Through the use of custom CSS, I added a unique and professional touch to the page's appearance. Employing Jest for testing, I ensured the reliability and functionality of the components, while gh-pages facilitated easy deployment on GitHub Pages. This project not only showcased my frontend development skills, but also demonstrated my ability to independently create an engaging user interface using modern technologies.",
+        "techStack": [
+          "React",
+          "jest",
+          "gh-pages",
+          "bootstrap"
+        ]
+      },
+      {
+        "partner": "Savvi",
+        "rol": "Frontend Developer",
+        "name": "Savvi - UI",
+        "webPage": "https://www.savvi.com/www",
+        "years": "Sept. 2022 - Mar. 2023",
+        "description": "I held the role of Frontend Developer. During this time, I focused on improving and refactoring the existing e-commerce page to reduce code complexity and enhance performance.",
+        "techStack": [
+          "Angular",
+          "FontAwesome",
+          "Bootstrap"
+        ]
+      },
+      {
         "partner": "GameStop",
+        "rol": "Platform Engineer",
         "name": "Launchpad templates generator",
         "years": "Aug. 2020 - Dec. 2022",
-        "description": "A CLI tool built with yeoman that generates basic rest API (on the most common scenario). It comes with a fully configured pipeline to be deployed with a CI/CD strategy.",
+        "description": "The GameStop CLI tool, built with Yeoman, provides developers with a streamlined solution for generating a basic REST API tailored to common scenarios. With automated scaffolding, this tool significantly reduces development time and effort. Additionally, it comes with a fully configured pipeline, enabling seamless integration into a CI/CD strategy. The pipeline includes automated testing, code quality checks, and efficient deployment, ensuring a reliable and streamlined release process. By leveraging this CLI tool, GameStop developers can accelerate REST API development while adhering to industry best practices for CI/CD.",
         "techStack": [
           "Node",
           "React",
@@ -128,9 +157,10 @@
       },
       {
         "partner": "GameStop",
+        "rol": "Backend Developer",
         "name": "Hyperion PBCS",
         "years": "Sept. 2020 - Jan. 2022",
-        "description": "A service to be able to parse from an s3 file into a CSV that has a unique format to be imported on a business program for the GameStop team.",
+        "description": "I worked on the Narvar Shipment Processor project. This service was developed to parse data from an S3 file and convert it into a CSV format with a unique structure. The generated CSV file was specifically designed to be imported into a business program used by the GameStop team, facilitating the seamless integration of shipment data for further processing and analysis.",
         "techStack": [
           "Node",
           "Express",
@@ -144,9 +174,10 @@
       },
       {
         "partner": "GameStop",
+        "rol": "Backend Developer",
         "name": "Narvar Shipment Processor",
         "years": "Sept. 2020 - Jan. 2022",
-        "description": "An application to handle a write event on an s3 bucket that generates a shipment order with the file content uploaded on the bucket.",
+        "description": "This application was designed to handle a write event on an S3 bucket. The primary functionality of the application was to generate a shipment order based on the content of the file uploaded to the bucket.",
         "techStack": [
           "Node",
           "Express",
@@ -159,9 +190,10 @@
       },
       {
         "partner": "Rappi",
+        "rol": "Backend Developer",
         "name": "Rappi Games",
         "years": "Jun. 2020 - Aug. 2020",
-        "description": "Backend service to handle tournament tokens to be used on the Rappi games app.",
+        "description": "This involved developing a backend service to handle tournament tokens for the Rappi Games app. The service was responsible for managing and processing the tokens used in tournaments within the app, ensuring a seamless gaming experience for users.",
         "techStack": [
           "Node",
           "Express",
@@ -173,9 +205,10 @@
       },
       {
         "partner": "Rappi",
+        "rol": "Backend Developer",
         "name": "Live",
         "years": "May. 2020 - Jun. 2020",
-        "description": "App to buy and see live streams through the platform of Rappi.",
+        "description": "I worked on the Live project, which involved the development of an application on the Rappi platform that allowed users to purchase and watch live streams. This feature provided users with the convenience of accessing and enjoying live content directly through the Rappi platform.",
         "techStack": [
           "Node",
           "Express",
@@ -187,9 +220,10 @@
       },
       {
         "partner": "Rappi",
+        "rol": "Backend Developer",
         "name": "Gifts",
         "years": "Fab. 2020 - May. 2020",
-        "description": "App inside Rappi platform to send gifts (inside the Rappi store) to your contacts.",
+        "description": "I worked on the Gifts project, developing an application within the Rappi platform that allowed users to send gifts to their contacts. This feature was integrated into the Rappi store, enabling users to conveniently select and send gifts to their desired recipients.",
         "techStack": [
           "Node",
           "Express",
@@ -201,9 +235,10 @@
       },
       {
         "partner": "Rappi",
+        "rol": "Backend Developer",
         "name": "Ticket Events",
         "years": "Sept. 2019 - Fab. 2020",
-        "description": "A backend service using Latam integrations to sell tickets for concerts through the platform of Rappi.",
+        "description": "I worked on the Ticket Events project, which involved the development of a backend service to facilitate the sale of concert tickets through the Rappi platform. The service integrated with various Latam ticketing systems, enabling seamless ticket purchases for Rappi users.",
         "techStack": [
           "Node",
           "TypeScript",
@@ -218,9 +253,10 @@
       },
       {
         "partner": "Rappi",
+        "rol": "Backend Developer",
         "name": "Aliados",
         "years": "Aug. 2019 - Sept. 2019",
-        "description": "A backend service to be able to scrape web and services of the competing companies.",
+        "description": "I was in charge of development a backend service to scrape data from various competing companies' websites and services. The objective was to gather relevant information from these sources and integrate it into Rappi's platform for analysis and comparison.",
         "techStack": [
           "Java 11",
           "Lombok",
@@ -234,9 +270,10 @@
       },
       {
         "partner": "Origenes Seguros",
+        "rol": "Frontend Developer",
         "name": "Onboarding Page",
         "years": "Jul. 2019 - Aug. 2019",
-        "description": "Onboarding of a landing page.",
+        "description": "I was responsible for the onboarding of a landing page. The objective of this project was to create an engaging and user-friendly onboarding experience for new users.",
         "techStack": [
           "React using Hooks",
           "SASS",

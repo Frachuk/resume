@@ -1,7 +1,6 @@
-/* eslint-disable no-unused-vars */
-/* eslint-disable react/prop-types */
 import { Component } from 'react';
 import { Col, Container, Image, Row } from 'react-bootstrap';
+import PropTypes from 'prop-types';
 
 export class About extends Component {
   render() {
@@ -15,7 +14,15 @@ export class About extends Component {
         <Container fluid='md' id='about'>
           <Row className='align-items-center'>
             <Col md='2'>
-              <Image fluid roundedCircle width={200} height={200} src={profilePictureUrl} alt='Franco Mischuk Profile Pic'></Image>
+              <Image
+                className='d-block m-auto'
+                fluid
+                roundedCircle
+                width={200}
+                height={200}
+                src={profilePictureUrl}
+                alt='Franco Mischuk Profile Pic'
+              ></Image>
             </Col>
             <Col md='10'>
               <h2>About Me</h2>
@@ -44,3 +51,7 @@ export class About extends Component {
     );
   }
 }
+
+About.propTypes = {
+  data: PropTypes.object,
+};
