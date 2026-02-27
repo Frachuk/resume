@@ -1,7 +1,7 @@
 {
   "main": {
     "name": "Franco Mischuk",
-    "occupation": "Senior Platform Engineer/Backend Developer",
+    "occupation": "Platform Engineer / Backend Developer",
     "description": "With a passion for perfection, my goal is to contribute my skills and expertise to a supportive and stable company. I am driven to continuously develop and improve my abilities, aiming to become an exceptional software developer.",
     "profilePicture": "/images/profilepic.jpg",
     "bio": "As a driven professional, I possess an unwavering determination to excel and continuously grow in my work. I thrive on challenges and consistently strive for excellence in every endeavor. My relentless pursuit of improvement fuels my motivation to deliver exceptional results and surpass expectations. With a strong work ethic and a commitment to excellence, I consistently strive to go above and beyond to achieve optimal outcomes.",
@@ -43,37 +43,116 @@
     ],
     "work": [
       {
+        "company": "Thanx",
+        "title": "Technical Operations Engineer",
+        "years": "May. 2024 - Present",
+        "description": "Own mobile app operations for 270+ merchant apps on the Apple Pie Squad. Optimized Android CI builds by 56% and local builds by 84%. Built CLI automation tools for release cuts, APNs certificate renewal, and merchant onboarding. Led SOP-to-AI-command conversion initiative, driving team-wide adoption of Claude Code for operational automation."
+      },
+      {
         "company": "GlobalLogic",
         "title": "Backend Software Engineer",
-        "years": "Dec. 2022 - Present.",
-        "description": "At present, I am working as a Backend Software Engineer, actively collaborating with the editorial, manifest, and front-end teams. In this capacity, I play a vital role in enhancing the data displayed on the web platform. By leveraging my skills and expertise, I contribute to enriching the content and delivering a seamless user experience. Through close collaboration with cross-functional teams, I ensure the efficient integration of backend systems and the effective utilization of data to meet the needs of the editorial and front-end teams."
+        "years": "Dec. 2022 - Jun. 2024",
+        "description": "Collaborate with editorial, manifest, and front-end teams to build and maintain backend services that power AMC Networks' web platform. Focused on data enrichment pipelines and API integrations that drive content delivery across streaming properties."
       },
       {
         "company": "GlobalLogic",
         "title": "Platform & Backend Software Engineer",
         "years": "Aug. 2020 - Dec. 2022.",
-        "description": "Building upon my strong foundation in Software Development, I joined the platform team. As a member of this team, my primary focus has been developing templates for internal use, enabling efficient and streamlined processes across the organization. Additionally, I have taken an active role in conducting interviews for potential new team members, assessing their skills and suitability for the team. Furthermore, I have contributed to the onboarding process, providing guidance and support to new hires as they familiarize themselves with the platform. Through these responsibilities, I have been able to contribute to the growth and success of the team while leveraging my expertise in software development."
+        "description": "Led development of internal scaffolding templates used across engineering teams. Conducted technical interviews for new hires and owned the onboarding process, helping scale the platform team during a period of rapid growth."
       },
       {
         "company": "Avalith",
         "title": "Fullstack Developer",
         "years": "Mar. 2019 - Aug. 2020",
-        "description": "As a Full Stack Developer, I not only contributed to various projects but also took on additional responsibilities. I actively participated in the recruitment process, conducting interviews and assessing candidates for the company. Additionally, I played a pivotal role in training and mentoring new hires, ensuring their seamless integration into the team and fostering their professional growth. This multifaceted position allowed me to not only excel in technical projects but also contribute to the development and success of the company's talent pool."
+        "description": "Delivered full-stack features across multiple client projects (Rappi, Origenes Seguros). Beyond development, conducted technical interviews and mentored new hires to help grow the engineering team."
       },
       {
         "company": "Boldt S.A",
         "title": "Technician",
         "years": "Apr. 2015 - Jun. 2018",
-        "description": "I played a crucial role in the setup and configuration of slot machines, overseeing the entire process from hardware installation to final software configuration. This involved meticulously ensuring the seamless integration of the machines, conducting thorough testing, and troubleshooting any technical issues that arose. By leveraging my expertise in hardware and software, I contributed to the successful deployment of fully operational and optimized slot machines, enhancing the overall gaming experience for customers."
+        "description": "Handled end-to-end setup of slot machines — from hardware installation to software configuration. Performed integration testing, diagnostics, and troubleshooting to ensure reliable operation across the casino floor."
       }
     ],
     "projects": [
       {
+        "partner": "Thanx",
+        "rol": "Technical Operations Engineer",
+        "name": "APS AI Brain & Claude Plugins",
+        "years": "Feb. 2026 - Present",
+        "description": "Designed a multi-agent cognitive system (AI Brain) for team operations with structured memory, workflow automation, and scoped agents. Led conversion of 24+ SOPs into reusable Claude commands via thanx-claude-plugins, enabling company-wide AI-assisted operational automation.",
+        "techStack": [
+          "Claude Code",
+          "MCP (Keystone)",
+          "Node.js",
+          "Jira",
+          "Notion",
+          "GitHub"
+        ]
+      },
+      {
+        "partner": "Thanx",
+        "rol": "Technical Operations Engineer",
+        "name": "APNs Certificate Automation",
+        "years": "Jan. 2026 - Feb. 2026",
+        "description": "Automated Apple Push Notification certificate renewal via a cron job that detects expiring certificates and renews them automatically. Includes Slack webhook alerts and monitoring, eliminating a manual process that previously risked push notification outages for merchant apps.",
+        "techStack": [
+          "Node.js",
+          "Apple Developer API",
+          "CircleCI",
+          "Slack Webhooks",
+          "Cron"
+        ]
+      },
+      {
+        "partner": "Thanx",
+        "rol": "Technical Operations Engineer",
+        "name": "Android Build Optimization",
+        "years": "Sept. 2024 - Mar. 2025",
+        "description": "Optimized Gradle JVM configuration for Android build flavors across 270+ merchant apps. Achieved 55.9% faster CI builds on CircleCI and 83.6% faster local builds (from 5m29s to 54s), reducing engineering time and CI costs company-wide.",
+        "techStack": [
+          "React Native",
+          "Gradle",
+          "CircleCI",
+          "JVM",
+          "Android"
+        ]
+      },
+      {
+        "partner": "Thanx",
+        "rol": "Technical Operations Engineer",
+        "name": "thanx-appops CLI Tools",
+        "years": "Aug. 2024 - Feb. 2026",
+        "description": "Built a suite of 6 Node.js CLI tools automating core operational workflows: release cuts, SendGrid custom domain setup, Firebase app creation, Apple agreement emails, and Android app signing. Used across the entire engineering org to standardize and accelerate merchant operations.",
+        "techStack": [
+          "Node.js",
+          "SendGrid API",
+          "Firebase",
+          "Apple Developer API",
+          "CircleCI",
+          "Fastlane"
+        ]
+      },
+      {
+        "partner": "Thanx",
+        "rol": "Technical Operations Engineer",
+        "name": "Fastlane & Release Pipeline Improvements",
+        "years": "Jan. 2025 - Jun. 2025",
+        "description": "Built a cache layer for Fastlane's fetch_app_configuration to eliminate redundant API calls during builds. Fixed critical pipeline blockers affecting all iOS releases, discovered workarounds for Apple-side issues, and modernized the release cut SOP with a data-driven validation approach.",
+        "techStack": [
+          "Ruby",
+          "Fastlane",
+          "CircleCI",
+          "Apple App Store Connect API",
+          "iOS",
+          "Android"
+        ]
+      },
+      {
         "partner": "AMC Networks",
         "rol": "Backend Developer",
         "name": "Ingest Script",
-        "years": "Dec. 2022 - Present",
-        "description": "As a Backend Developer at AMC Networks, I am currently working on the Ingest Script project. This project aims to develop a script that fetches streaming schedule data from Nielsen, a trusted source, and extends the data using a Content Management System (CMS). The script is built using Node.js and utilizes AWS Batch for scalable and efficient execution. CloudWatch is used for monitoring and logging, while FTP is employed to fetch the data from Nielsen. The extended data is stored and managed using Cloudinary, and Splunk is utilized for centralized logging and analysis. With the Ingest Script project, AMC Networks aims to automate the process of fetching and extending streaming schedule data, ensuring accurate and up-to-date information for their content management system.",
+        "years": "Dec. 2022 - Jun. 2024",
+        "description": "Built an automated pipeline that fetches streaming schedule data from Nielsen via FTP, enriches it through a CMS, and stores assets in Cloudinary. Runs on AWS Batch for scalable execution with CloudWatch monitoring and Splunk logging, replacing a manual workflow and ensuring up-to-date scheduling data across AMC's platforms.",
         "techStack": [
           "Node",
           "AWS Batch",
@@ -87,8 +166,8 @@
         "partner": "AMC Networks",
         "rol": "Backend Developer",
         "name": "Universal Search",
-        "years": "Dec. 2022 - Present",
-        "description": "As a Backend Developer at AMC Networks, I am currently working on the Universal Search project. This project involves the development of a Node.js ETL service that utilizes a third-party integration to parse content, which is then stored in an S3 bucket. The project leverages a tech stack that includes Node.js, Express, Xls for content parsing, Kafka for event-driven data processing, and various AWS services such as CloudWatch for monitoring. Additionally, Stoplight is used for API documentation, and Splunk is employed for centralized logging and analysis. With the Universal Search project, AMC Networks aims to enhance search capabilities by efficiently extracting, transforming, and storing data, ensuring optimal performance and reliability throughout the system.",
+        "years": "Dec. 2022 - Jun. 2024",
+        "description": "Developed an ETL service that parses content via third-party integrations, processes it through Kafka event streams, and stores results in S3. Enhanced AMC's cross-platform search capabilities by unifying content from multiple sources into a single searchable index.",
         "techStack": [
           "Node",
           "Express",
@@ -105,7 +184,7 @@
         "rol": "Frontend Developer",
         "name": "This resume",
         "years": "N/A - Present",
-        "description": "I created my own resume page using React, implementing the Bootstrap grid system and custom CSS for a visually appealing and responsive layout. Leveraging React's capabilities, I built a dynamic and interactive resume page that effectively showcases my skills and experiences. By utilizing the Bootstrap grid system, I ensured a responsive design that adapts seamlessly to various screen sizes and devices. Through the use of custom CSS, I added a unique and professional touch to the page's appearance. Employing Jest for testing, I ensured the reliability and functionality of the components, while gh-pages facilitated easy deployment on GitHub Pages. This project not only showcased my frontend development skills, but also demonstrated my ability to independently create an engaging user interface using modern technologies.",
+        "description": "Personal project — a responsive resume page built with React and Bootstrap, deployed to GitHub Pages. Features a component-based architecture with Jest test coverage.",
         "techStack": [
           "React",
           "jest",
@@ -119,7 +198,7 @@
         "name": "Savvi - UI",
         "webPage": "https://www.savvi.com/www",
         "years": "Sept. 2022 - Mar. 2023",
-        "description": "I held the role of Frontend Developer. During this time, I focused on improving and refactoring the existing e-commerce page to reduce code complexity and enhance performance.",
+        "description": "Refactored an existing e-commerce platform to reduce code complexity and improve page performance, resulting in a cleaner codebase and faster load times.",
         "techStack": [
           "Angular",
           "FontAwesome",
@@ -131,7 +210,7 @@
         "rol": "Platform Engineer",
         "name": "Launchpad templates generator",
         "years": "Aug. 2020 - Dec. 2022",
-        "description": "The GameStop CLI tool, built with Yeoman, provides developers with a streamlined solution for generating a basic REST API tailored to common scenarios. With automated scaffolding, this tool significantly reduces development time and effort. Additionally, it comes with a fully configured pipeline, enabling seamless integration into a CI/CD strategy. The pipeline includes automated testing, code quality checks, and efficient deployment, ensuring a reliable and streamlined release process. By leveraging this CLI tool, GameStop developers can accelerate REST API development while adhering to industry best practices for CI/CD.",
+        "description": "Built a Yeoman-based CLI tool that scaffolds production-ready REST APIs with pre-configured CI/CD pipelines, automated testing, and deployment workflows. Supported multiple languages (Node, Go, Java, .NET) across a Nx monorepo, accelerating new service creation for GameStop's engineering teams.",
         "techStack": [
           "Node",
           "React",
@@ -160,7 +239,7 @@
         "rol": "Backend Developer",
         "name": "Hyperion PBCS",
         "years": "Sept. 2020 - Jan. 2022",
-        "description": "I worked on the Narvar Shipment Processor project. This service was developed to parse data from an S3 file and convert it into a CSV format with a unique structure. The generated CSV file was specifically designed to be imported into a business program used by the GameStop team, facilitating the seamless integration of shipment data for further processing and analysis.",
+        "description": "Built a data transformation service that parses S3 files and converts them into a structured CSV format compatible with GameStop's business intelligence tools, using Node streams and custom transforms for efficient large-file processing.",
         "techStack": [
           "Node",
           "Express",
@@ -177,7 +256,7 @@
         "rol": "Backend Developer",
         "name": "Narvar Shipment Processor",
         "years": "Sept. 2020 - Jan. 2022",
-        "description": "This application was designed to handle a write event on an S3 bucket. The primary functionality of the application was to generate a shipment order based on the content of the file uploaded to the bucket.",
+        "description": "Developed an event-driven service triggered by S3 write events that automatically generates shipment orders from uploaded file data, processing messages via SQS for reliable order fulfillment.",
         "techStack": [
           "Node",
           "Express",
@@ -193,7 +272,7 @@
         "rol": "Backend Developer",
         "name": "Rappi Games",
         "years": "Jun. 2020 - Aug. 2020",
-        "description": "This involved developing a backend service to handle tournament tokens for the Rappi Games app. The service was responsible for managing and processing the tokens used in tournaments within the app, ensuring a seamless gaming experience for users.",
+        "description": "Developed the backend service powering tournament token management for Rappi Games — handling token issuance, redemption, and balance tracking to support in-app gaming tournaments across Rappi's user base.",
         "techStack": [
           "Node",
           "Express",
@@ -208,7 +287,7 @@
         "rol": "Backend Developer",
         "name": "Live",
         "years": "May. 2020 - Jun. 2020",
-        "description": "I worked on the Live project, which involved the development of an application on the Rappi platform that allowed users to purchase and watch live streams. This feature provided users with the convenience of accessing and enjoying live content directly through the Rappi platform.",
+        "description": "Built the backend for Rappi's live streaming commerce feature, enabling users to purchase and watch live streams directly within the app — combining content delivery with integrated payment processing.",
         "techStack": [
           "Node",
           "Express",
@@ -222,8 +301,8 @@
         "partner": "Rappi",
         "rol": "Backend Developer",
         "name": "Gifts",
-        "years": "Fab. 2020 - May. 2020",
-        "description": "I worked on the Gifts project, developing an application within the Rappi platform that allowed users to send gifts to their contacts. This feature was integrated into the Rappi store, enabling users to conveniently select and send gifts to their desired recipients.",
+        "years": "Feb. 2020 - May. 2020",
+        "description": "Developed the gift-sending feature for Rappi's store, allowing users to select products and send them as gifts to contacts with personalized delivery — integrated into the existing checkout and logistics flows.",
         "techStack": [
           "Node",
           "Express",
@@ -237,8 +316,8 @@
         "partner": "Rappi",
         "rol": "Backend Developer",
         "name": "Ticket Events",
-        "years": "Sept. 2019 - Fab. 2020",
-        "description": "I worked on the Ticket Events project, which involved the development of a backend service to facilitate the sale of concert tickets through the Rappi platform. The service integrated with various Latam ticketing systems, enabling seamless ticket purchases for Rappi users.",
+        "years": "Sept. 2019 - Feb. 2020",
+        "description": "Built the backend service for selling concert tickets through Rappi, integrating with multiple Latin American ticketing providers via SOAP APIs. Handled event catalog sync, seat selection, and payment orchestration across different vendor systems.",
         "techStack": [
           "Node",
           "TypeScript",
@@ -256,7 +335,7 @@
         "rol": "Backend Developer",
         "name": "Aliados",
         "years": "Aug. 2019 - Sept. 2019",
-        "description": "I was in charge of development a backend service to scrape data from various competing companies' websites and services. The objective was to gather relevant information from these sources and integrate it into Rappi's platform for analysis and comparison.",
+        "description": "Developed a multi-threaded web scraping service in Java that collected pricing and catalog data from competitor platforms, feeding it into Rappi's analytics pipeline for market intelligence and competitive analysis.",
         "techStack": [
           "Java 11",
           "Lombok",
@@ -273,7 +352,7 @@
         "rol": "Frontend Developer",
         "name": "Onboarding Page",
         "years": "Jul. 2019 - Aug. 2019",
-        "description": "I was responsible for the onboarding of a landing page. The objective of this project was to create an engaging and user-friendly onboarding experience for new users.",
+        "description": "Built a pixel-perfect onboarding landing page for new insurance customers using React Hooks and SASS, focused on conversion-oriented UX and responsive design.",
         "techStack": [
           "React using Hooks",
           "SASS",
