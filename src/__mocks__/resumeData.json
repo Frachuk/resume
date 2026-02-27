@@ -1,0 +1,66 @@
+{
+  "main": {
+    "name": "John Doe",
+    "occupation": "Software Engineer",
+    "description": "A passionate developer.",
+    "profilePicture": "/images/profilepic.jpg",
+    "bio": "I love building software.",
+    "email": "john@example.com",
+    "phone": "+1 555-1234",
+    "address": {
+      "city": "Springfield",
+      "state": "Illinois"
+    },
+    "social": [
+      {
+        "name": "linkedin",
+        "url": "https://linkedin.com/in/johndoe",
+        "faPrefix": "fab",
+        "faIcon": "linkedin"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/johndoe",
+        "faPrefix": "fab",
+        "faIcon": "github"
+      }
+    ]
+  },
+  "resume": {
+    "education": [
+      {
+        "school": "MIT",
+        "degree": "Computer Science",
+        "graduated": "2020",
+        "description": "Studied CS fundamentals."
+      }
+    ],
+    "work": [
+      {
+        "company": "Acme Corp",
+        "title": "Senior Engineer",
+        "years": "Jan. 2021 - Present",
+        "description": "Built scalable services."
+      }
+    ],
+    "projects": [
+      {
+        "partner": "Acme Corp",
+        "rol": "Backend Developer",
+        "name": "API Gateway",
+        "years": "Mar. 2022 - Jun. 2022",
+        "description": "Built a unified API gateway.",
+        "techStack": ["Node", "Express", "AWS"]
+      },
+      {
+        "partner": "Side Project",
+        "rol": "Frontend Developer",
+        "name": "Portfolio Site",
+        "years": "Jan. 2023",
+        "description": "Personal portfolio.",
+        "techStack": ["React", "Bootstrap"],
+        "webPage": "https://example.com"
+      }
+    ]
+  }
+}

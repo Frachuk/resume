@@ -30,6 +30,7 @@
     - message: Unexpected property on console object was called
       selector: CallExpression[callee.object.name='console'][callee.property.name!=/^(log|warn|error|info|trace)$/]
     no-useless-escape: 0
+    react/prop-types: 'off'
     prefer-const:
     - error
     - destructuring: any
