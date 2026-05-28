@@ -1,0 +1,144 @@
+{
+  "common": { "language": "Language", "theme": "Theme" },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "experience": "Experience",
+    "education": "Education",
+    "projects": "Projects"
+  },
+  "metrics": {
+    "items": {
+      "apps": "Merchant apps owned",
+      "ci-speed": "Faster CI builds",
+      "local-speed": "Faster local builds",
+      "sops": "SOPs automated"
+    }
+  },
+  "skills": {
+    "title": "Skills",
+    "categories": {
+      "languages": "Languages",
+      "frameworks": "Frameworks",
+      "cloud": "Cloud & Infrastructure",
+      "cicd": "CI/CD & Tooling",
+      "data": "Data & Messaging",
+      "observability": "Observability"
+    }
+  },
+  "hero": {
+    "role": "Platform & Backend Engineer",
+    "basedIn": "Based in {{city}}",
+    "summary": "With a passion for perfection, my goal is to contribute my skills and expertise to a supportive and stable company. I am driven to continuously develop and improve my abilities, aiming to become an exceptional software developer."
+  },
+  "about": {
+    "title": "About Me",
+    "contact": "Contact",
+    "bio": "As a driven professional, I possess an unwavering determination to excel and continuously grow in my work. I thrive on challenges and consistently strive for excellence in every endeavor. My relentless pursuit of improvement fuels my motivation to deliver exceptional results and surpass expectations. With a strong work ethic and a commitment to excellence, I consistently strive to go above and beyond to achieve optimal outcomes."
+  },
+  "experience": {
+    "title": "Experience",
+    "items": {
+      "thanx-toe": {
+        "description": "Own mobile app operations for 270+ merchant apps on the Apple Pie Squad, building automation and tooling to scale per-merchant work across the fleet.",
+        "highlights": [
+          "Led an SOP-to-AI-command initiative, converting 17+ operational runbooks into reusable Claude Code commands and driving org-wide adoption of AI-assisted operations.",
+          "Cut Android CI builds by 56% and local builds by 84% (5m29s to 54s) across 270+ merchant app flavors through Gradle JVM tuning.",
+          "Built a multi-agent launch-detection system that monitors app go-lives, posts AI-generated summaries to Slack, and integrates Looker signup and error data.",
+          "Automated Apple Push Notification (APNs) certificate renewal with a scheduled job and alerting, removing manual toil and outage risk across the fleet.",
+          "Built mobile release tooling for hotfixes and staged-rollout control, shipping 18+ app updates while making releases faster and safer to operate.",
+          "Scaled per-merchant work across 270+ apps by automating onboarding steps including Firebase setup, store accounts, mobile payments, and custom fonts.",
+          "Built Zendesk support-automation triggers for membership, account, and error-handling flows to reduce manual support handling."
+        ]
+      },
+      "globallogic-backend": {
+        "description": "Collaborate with editorial, manifest, and front-end teams to build and maintain backend services that power AMC Networks' web platform. Focused on data enrichment pipelines and API integrations that drive content delivery across streaming properties."
+      },
+      "globallogic-platform": {
+        "description": "Led development of internal scaffolding templates used across engineering teams. Conducted technical interviews for new hires and owned the onboarding process, helping scale the platform team during a period of rapid growth."
+      },
+      "avalith-fullstack": {
+        "description": "Delivered full-stack features across multiple client projects (Rappi, Origenes Seguros). Beyond development, conducted technical interviews and mentored new hires to help grow the engineering team."
+      },
+      "boldt-technician": {
+        "description": "Handled end-to-end setup of slot machines — from hardware installation to software configuration. Performed integration testing, diagnostics, and troubleshooting to ensure reliable operation across the casino floor."
+      }
+    }
+  },
+  "education": {
+    "title": "Education",
+    "items": {
+      "untn-prog": {
+        "description": "After completing my technician school, I eagerly pursued a bachelor's degree. Concurrently, I embarked on a professional journey as a technician at the local Casino, where I had the opportunity to apply my programming and software skills. During my time at the university, I not only expanded my foundational knowledge but also honed my abilities through practical tasks related to programming and software development at the casino. This valuable experience allowed me to further solidify my expertise and bridge the gap between theory and real-world application."
+      },
+      "hightech-5": {
+        "description": "I took my first steps in the programming world, laying the foundation of my technical knowledge. Through engaging coursework and practical projects, I gained proficiency in programming languages, algorithms, and software development principles. This immersive experience ignited my curiosity and honed my problem-solving skills, fueling my passion for pursuing a career in technology."
+      }
+    }
+  },
+  "projects": {
+    "title": "Projects",
+    "featured": "Featured",
+    "all": "All Projects",
+    "filterAll": "All",
+    "techStack": "Tech Stack",
+    "visit": "Visit",
+    "items": {
+      "aps-ai-brain": {
+        "description": "Designed a multi-agent cognitive system (AI Brain) for team operations with structured memory, workflow automation, and scoped agents. Led conversion of 24+ SOPs into reusable Claude commands via thanx-claude-plugins, enabling company-wide AI-assisted operational automation."
+      },
+      "apns-cert-automation": {
+        "description": "Automated Apple Push Notification certificate renewal via a cron job that detects expiring certificates and renews them automatically. Includes Slack webhook alerts and monitoring, eliminating a manual process that previously risked push notification outages for merchant apps."
+      },
+      "android-build-optimization": {
+        "description": "Optimized Gradle JVM configuration for Android build flavors across 270+ merchant apps. Achieved 55.9% faster CI builds on CircleCI and 83.6% faster local builds (from 5m29s to 54s), reducing engineering time and CI costs company-wide."
+      },
+      "thanx-appops-cli": {
+        "description": "Built a suite of 6 Node.js CLI tools automating core operational workflows: release cuts, SendGrid custom domain setup, Firebase app creation, Apple agreement emails, and Android app signing. Used across the entire engineering org to standardize and accelerate merchant operations."
+      },
+      "fastlane-release-pipeline": {
+        "description": "Built a cache layer for Fastlane's fetch_app_configuration to eliminate redundant API calls during builds. Fixed critical pipeline blockers affecting all iOS releases, discovered workarounds for Apple-side issues, and modernized the release cut SOP with a data-driven validation approach."
+      },
+      "amc-ingest-script": {
+        "description": "Built an automated pipeline that fetches streaming schedule data from Nielsen via FTP, enriches it through a CMS, and stores assets in Cloudinary. Runs on AWS Batch for scalable execution with CloudWatch monitoring and Splunk logging, replacing a manual workflow and ensuring up-to-date scheduling data across AMC's platforms."
+      },
+      "amc-universal-search": {
+        "description": "Developed an ETL service that parses content via third-party integrations, processes it through Kafka event streams, and stores results in S3. Enhanced AMC's cross-platform search capabilities by unifying content from multiple sources into a single searchable index."
+      },
+      "resume-site": {
+        "description": "Personal project — a responsive resume page built with React, deployed to GitHub Pages. Features a component-based architecture with i18n, a token-based theme system, and Vitest test coverage."
+      },
+      "savvi-ui": {
+        "description": "Refactored an existing e-commerce platform to reduce code complexity and improve page performance, resulting in a cleaner codebase and faster load times."
+      },
+      "gamestop-launchpad": {
+        "description": "Built a Yeoman-based CLI tool that scaffolds production-ready REST APIs with pre-configured CI/CD pipelines, automated testing, and deployment workflows. Supported multiple languages (Node, Go, Java, .NET) across an Nx monorepo, accelerating new service creation for GameStop's engineering teams."
+      },
+      "gamestop-hyperion": {
+        "description": "Built a data transformation service that parses S3 files and converts them into a structured CSV format compatible with GameStop's business intelligence tools, using Node streams and custom transforms for efficient large-file processing."
+      },
+      "gamestop-narvar": {
+        "description": "Developed an event-driven service triggered by S3 write events that automatically generates shipment orders from uploaded file data, processing messages via SQS for reliable order fulfillment."
+      },
+      "rappi-games": {
+        "description": "Developed the backend service powering tournament token management for Rappi Games — handling token issuance, redemption, and balance tracking to support in-app gaming tournaments across Rappi's user base."
+      },
+      "rappi-live": {
+        "description": "Built the backend for Rappi's live streaming commerce feature, enabling users to purchase and watch live streams directly within the app — combining content delivery with integrated payment processing."
+      },
+      "rappi-gifts": {
+        "description": "Developed the gift-sending feature for Rappi's store, allowing users to select products and send them as gifts to contacts with personalized delivery — integrated into the existing checkout and logistics flows."
+      },
+      "rappi-ticket-events": {
+        "description": "Built the backend service for selling concert tickets through Rappi, integrating with multiple Latin American ticketing providers via SOAP APIs. Handled event catalog sync, seat selection, and payment orchestration across different vendor systems."
+      },
+      "rappi-aliados": {
+        "description": "Developed a multi-threaded web scraping service in Java that collected pricing and catalog data from competitor platforms, feeding it into Rappi's analytics pipeline for market intelligence and competitive analysis."
+      },
+      "origenes-onboarding": {
+        "description": "Built a pixel-perfect onboarding landing page for new insurance customers using React Hooks and SASS, focused on conversion-oriented UX and responsive design."
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-canvas: rgb(var(--canvas));
+  --color-surface: rgb(var(--surface));
+  --color-surface-2: rgb(var(--surface-2));
+  --color-border-default: rgb(var(--border-default));
+  --color-ink: rgb(var(--ink));
+  --color-ink-muted: rgb(var(--ink-muted));
+  --color-accent: rgb(var(--accent));
+  --color-accent-soft: rgb(var(--accent-soft));
+  --color-sage: rgb(var(--sage));
+
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-display: 'Fraunces', Georgia, serif;
+
+  --radius-chip: 6px;
+  --radius-control: 8px;
+  --radius-card: 12px;
+
+  --shadow-elevated: 0 6px 24px rgba(0, 0, 0, 0.08);
+}
+
+:root,
+[data-theme='editorial-warm'] {
+  --canvas: 247 243 238;
+  --surface: 255 250 243;
+  --surface-2: 250 244 234;
+  --border-default: 234 217 193;
+  --ink: 42 36 31;
+  --ink-muted: 138 122 104;
+  --accent: 168 83 60;
+  --accent-soft: 246 236 230;
+  --sage: 107 138 122;
+}
+
+[data-theme='dark'] {
+  --canvas: 18 18 22;
+  --surface: 26 26 31;
+  --surface-2: 33 33 39;
+  --border-default: 55 55 63;
+  --ink: 237 233 226;
+  --ink-muted: 156 148 138;
+  --accent: 230 138 92;
+  --accent-soft: 48 38 33;
+  --sage: 138 168 152;
+}
+
+body {
+  margin: 0;
+  background: var(--color-canvas);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+}

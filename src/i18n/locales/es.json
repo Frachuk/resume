@@ -1,0 +1,144 @@
+{
+  "common": { "language": "Idioma", "theme": "Tema" },
+  "nav": {
+    "home": "Inicio",
+    "about": "Sobre mí",
+    "skills": "Habilidades",
+    "experience": "Experiencia",
+    "education": "Educación",
+    "projects": "Proyectos"
+  },
+  "metrics": {
+    "items": {
+      "apps": "Apps de comercios gestionadas",
+      "ci-speed": "Builds de CI más rápidos",
+      "local-speed": "Builds locales más rápidos",
+      "sops": "SOPs automatizados"
+    }
+  },
+  "skills": {
+    "title": "Habilidades",
+    "categories": {
+      "languages": "Lenguajes",
+      "frameworks": "Frameworks",
+      "cloud": "Cloud e Infraestructura",
+      "cicd": "CI/CD y Herramientas",
+      "data": "Datos y Mensajería",
+      "observability": "Observabilidad"
+    }
+  },
+  "hero": {
+    "role": "Platform & Backend Engineer",
+    "basedIn": "Radicado en {{city}}",
+    "summary": "Con una pasión por la excelencia, mi objetivo es aportar mis habilidades y experiencia a una empresa estable y con buen acompañamiento. Me impulsa el deseo de desarrollar y mejorar continuamente mis capacidades, con la meta de convertirme en un desarrollador de software excepcional."
+  },
+  "about": {
+    "title": "Sobre mí",
+    "contact": "Contacto",
+    "bio": "Como profesional motivado, tengo una determinación inquebrantable para destacar y crecer de forma continua en mi trabajo. Disfruto de los desafíos y busco constantemente la excelencia en cada tarea. Mi búsqueda incansable de mejora alimenta mi motivación para entregar resultados excepcionales y superar las expectativas. Con una fuerte ética de trabajo y un compromiso con la excelencia, siempre me esfuerzo por ir más allá para lograr resultados óptimos."
+  },
+  "experience": {
+    "title": "Experiencia",
+    "items": {
+      "thanx-toe": {
+        "description": "Responsable de las operaciones de apps móviles para más de 270 apps de comercios en el equipo Apple Pie Squad, construyendo automatización y herramientas para escalar el trabajo por comercio en toda la flota.",
+        "highlights": [
+          "Lideré una iniciativa de conversión de SOPs en comandos de IA, transformando más de 17 runbooks operativos en comandos reutilizables de Claude Code e impulsando la adopción de operaciones asistidas por IA en toda la organización.",
+          "Reduje los builds de CI de Android en un 56% y los locales en un 84% (de 5m29s a 54s) en más de 270 flavors de apps de comercios mediante el ajuste de la JVM de Gradle.",
+          "Construí un sistema multiagente de detección de lanzamientos que monitorea las salidas a producción, publica resúmenes generados por IA en Slack e integra datos de registros y errores de Looker.",
+          "Automaticé la renovación de certificados de notificaciones push de Apple (APNs) con un job programado y alertas, eliminando trabajo manual y el riesgo de interrupciones en toda la flota.",
+          "Construí herramientas de release móvil para hotfixes y control de despliegue escalonado, publicando más de 18 actualizaciones de apps y haciendo los releases más rápidos y seguros de operar.",
+          "Escalé el trabajo por comercio en más de 270 apps automatizando pasos del onboarding como la configuración de Firebase, cuentas de tiendas, pagos móviles y fuentes personalizadas.",
+          "Construí triggers de automatización de soporte en Zendesk para flujos de membresía, cuentas y manejo de errores, reduciendo la gestión manual de soporte."
+        ]
+      },
+      "globallogic-backend": {
+        "description": "Colaboré con los equipos editorial, de manifiestos y de front-end para construir y mantener servicios backend que potencian la plataforma web de AMC Networks. Enfocado en pipelines de enriquecimiento de datos e integraciones de API que impulsan la entrega de contenido en sus propiedades de streaming."
+      },
+      "globallogic-platform": {
+        "description": "Lideré el desarrollo de plantillas internas de scaffolding utilizadas por múltiples equipos de ingeniería. Realicé entrevistas técnicas para nuevas contrataciones y fui responsable del proceso de onboarding, ayudando a escalar el equipo de plataforma durante una etapa de rápido crecimiento."
+      },
+      "avalith-fullstack": {
+        "description": "Entregué funcionalidades full-stack en múltiples proyectos de clientes (Rappi, Orígenes Seguros). Además del desarrollo, realicé entrevistas técnicas y mentoreé a nuevas contrataciones para ayudar a hacer crecer el equipo de ingeniería."
+      },
+      "boldt-technician": {
+        "description": "Me encargué de la configuración integral de máquinas tragamonedas, desde la instalación del hardware hasta la configuración del software. Realicé pruebas de integración, diagnósticos y resolución de problemas para asegurar un funcionamiento confiable en todo el casino."
+      }
+    }
+  },
+  "education": {
+    "title": "Educación",
+    "items": {
+      "untn-prog": {
+        "description": "Tras completar la escuela técnica, continué con entusiasmo hacia una carrera universitaria. En paralelo, comencé mi camino profesional como técnico en el Casino local, donde tuve la oportunidad de aplicar mis conocimientos de programación y software. Durante la universidad no solo amplié mis bases teóricas, sino que también afiné mis habilidades mediante tareas prácticas de programación y desarrollo de software en el casino. Esta valiosa experiencia me permitió consolidar mi experiencia y conectar la teoría con la aplicación en el mundo real."
+      },
+      "hightech-5": {
+        "description": "Di mis primeros pasos en el mundo de la programación, sentando las bases de mi conocimiento técnico. A través de cursos atractivos y proyectos prácticos, adquirí dominio en lenguajes de programación, algoritmos y principios de desarrollo de software. Esta experiencia inmersiva despertó mi curiosidad y afinó mis habilidades para resolver problemas, impulsando mi pasión por una carrera en tecnología."
+      }
+    }
+  },
+  "projects": {
+    "title": "Proyectos",
+    "featured": "Destacados",
+    "all": "Todos los proyectos",
+    "filterAll": "Todos",
+    "techStack": "Tecnologías",
+    "visit": "Visitar",
+    "items": {
+      "aps-ai-brain": {
+        "description": "Diseñé un sistema cognitivo multiagente (AI Brain) para las operaciones del equipo, con memoria estructurada, automatización de flujos de trabajo y agentes acotados. Lideré la conversión de más de 24 SOPs en comandos reutilizables de Claude mediante thanx-claude-plugins, habilitando la automatización operativa asistida por IA en toda la empresa."
+      },
+      "apns-cert-automation": {
+        "description": "Automaticé la renovación de certificados de Apple Push Notification mediante un cron job que detecta certificados por vencer y los renueva automáticamente. Incluye alertas por webhook de Slack y monitoreo, eliminando un proceso manual que antes ponía en riesgo el envío de notificaciones push de las apps de comercios."
+      },
+      "android-build-optimization": {
+        "description": "Optimicé la configuración de la JVM de Gradle para los flavors de build de Android en más de 270 apps de comercios. Logré builds de CI un 55,9% más rápidos en CircleCI y builds locales un 83,6% más rápidos (de 5m29s a 54s), reduciendo el tiempo de ingeniería y los costos de CI en toda la empresa."
+      },
+      "thanx-appops-cli": {
+        "description": "Desarrollé un conjunto de 6 herramientas CLI en Node.js que automatizan flujos operativos clave: release cuts, configuración de dominios de correo personalizados en SendGrid, creación de apps en Firebase, correos de acuerdos de Apple y firma de apps de Android. Usadas por toda la organización de ingeniería para estandarizar y acelerar las operaciones con comercios."
+      },
+      "fastlane-release-pipeline": {
+        "description": "Construí una capa de caché para fetch_app_configuration de Fastlane para eliminar llamadas redundantes a la API durante los builds. Resolví bloqueos críticos del pipeline que afectaban a todos los releases de iOS, encontré soluciones para problemas del lado de Apple y modernicé el SOP de release cut con un enfoque de validación basado en datos."
+      },
+      "amc-ingest-script": {
+        "description": "Construí un pipeline automatizado que obtiene datos de programación de streaming desde Nielsen vía FTP, los enriquece a través de un CMS y almacena los assets en Cloudinary. Corre en AWS Batch para una ejecución escalable, con monitoreo en CloudWatch y logging en Splunk, reemplazando un flujo manual y asegurando datos de programación actualizados en las plataformas de AMC."
+      },
+      "amc-universal-search": {
+        "description": "Desarrollé un servicio ETL que parsea contenido mediante integraciones de terceros, lo procesa a través de event streams de Kafka y almacena los resultados en S3. Mejoré las capacidades de búsqueda multiplataforma de AMC unificando contenido de múltiples fuentes en un único índice consultable."
+      },
+      "resume-site": {
+        "description": "Proyecto personal — una página de currículum responsive construida con React y desplegada en GitHub Pages. Cuenta con una arquitectura basada en componentes, i18n, un sistema de temas basado en tokens y cobertura de tests con Vitest."
+      },
+      "savvi-ui": {
+        "description": "Refactoricé una plataforma de e-commerce existente para reducir la complejidad del código y mejorar el rendimiento de las páginas, logrando un código más limpio y tiempos de carga más rápidos."
+      },
+      "gamestop-launchpad": {
+        "description": "Construí una herramienta CLI basada en Yeoman que genera APIs REST listas para producción con pipelines de CI/CD preconfigurados, pruebas automatizadas y flujos de despliegue. Soportaba múltiples lenguajes (Node, Go, Java, .NET) en un monorepo con Nx, acelerando la creación de nuevos servicios para los equipos de ingeniería de GameStop."
+      },
+      "gamestop-hyperion": {
+        "description": "Construí un servicio de transformación de datos que parsea archivos de S3 y los convierte a un formato CSV estructurado compatible con las herramientas de inteligencia de negocio de GameStop, usando streams de Node y transforms personalizados para procesar archivos grandes de forma eficiente."
+      },
+      "gamestop-narvar": {
+        "description": "Desarrollé un servicio orientado a eventos, disparado por eventos de escritura en S3, que genera automáticamente órdenes de envío a partir de los datos de los archivos subidos, procesando mensajes vía SQS para un cumplimiento de pedidos confiable."
+      },
+      "rappi-games": {
+        "description": "Desarrollé el servicio backend que gestiona los tokens de torneos para Rappi Games — manejando la emisión, el canje y el seguimiento de saldos de tokens para soportar torneos de juegos in-app en la base de usuarios de Rappi."
+      },
+      "rappi-live": {
+        "description": "Construí el backend de la funcionalidad de comercio por streaming en vivo de Rappi, permitiendo a los usuarios comprar y ver transmisiones en vivo directamente dentro de la app — combinando entrega de contenido con procesamiento de pagos integrado."
+      },
+      "rappi-gifts": {
+        "description": "Desarrollé la funcionalidad de envío de regalos para la tienda de Rappi, permitiendo a los usuarios seleccionar productos y enviarlos como regalos a sus contactos con entrega personalizada — integrada en los flujos existentes de checkout y logística."
+      },
+      "rappi-ticket-events": {
+        "description": "Construí el servicio backend para la venta de entradas de conciertos a través de Rappi, integrando múltiples proveedores de ticketing de Latinoamérica vía APIs SOAP. Manejé la sincronización del catálogo de eventos, la selección de asientos y la orquestación de pagos entre los distintos sistemas de proveedores."
+      },
+      "rappi-aliados": {
+        "description": "Desarrollé un servicio de web scraping multihilo en Java que recopilaba datos de precios y catálogos de plataformas competidoras, alimentando el pipeline de analítica de Rappi para inteligencia de mercado y análisis competitivo."
+      },
+      "origenes-onboarding": {
+        "description": "Construí una landing page de onboarding pixel-perfect para nuevos clientes de seguros usando React Hooks y SASS, enfocada en una UX orientada a la conversión y un diseño responsive."
+      }
+    }
+  }
+}
