@@ -41,14 +41,14 @@
     "title": "Experience",
     "items": {
       "thanx-toe": {
-        "description": "Own mobile app operations for 270+ merchant apps on the Apple Pie Squad, building automation and tooling to scale per-merchant work across the fleet.",
+        "description": "Own mobile app operations for 334 merchant apps on the Apple Pie Squad, building automation and tooling to scale per-merchant work across the fleet.",
         "highlights": [
-          "Led an SOP-to-AI-command initiative, converting 17+ operational runbooks into reusable Claude Code commands and driving org-wide adoption of AI-assisted operations.",
-          "Cut Android CI builds by 56% and local builds by 84% (5m29s to 54s) across 270+ merchant app flavors through Gradle JVM tuning.",
+          "Converted 17+ operational runbooks into reusable Claude Code commands, driving org-wide adoption of AI-assisted operations.",
+          "Cut Android CI builds by 56% and local builds by 84% (5m29s to 54s) across 334 merchant app flavors through Gradle JVM tuning.",
           "Built a multi-agent launch-detection system that monitors app go-lives, posts AI-generated summaries to Slack, and integrates Looker signup and error data.",
           "Automated Apple Push Notification (APNs) certificate renewal with a scheduled job and alerting, removing manual toil and outage risk across the fleet.",
           "Built mobile release tooling for hotfixes and staged-rollout control, shipping 18+ app updates while making releases faster and safer to operate.",
-          "Scaled per-merchant work across 270+ apps by automating onboarding steps including Firebase setup, store accounts, mobile payments, and custom fonts.",
+          "Scaled per-merchant work across 334 apps by automating onboarding steps including Firebase setup, store accounts, mobile payments, and custom fonts.",
           "Built Zendesk support-automation triggers for membership, account, and error-handling flows to reduce manual support handling."
         ]
       },
@@ -92,7 +92,7 @@
         "description": "Automated Apple Push Notification certificate renewal via a cron job that detects expiring certificates and renews them automatically. Includes Slack webhook alerts and monitoring, eliminating a manual process that previously risked push notification outages for merchant apps."
       },
       "android-build-optimization": {
-        "description": "Optimized Gradle JVM configuration for Android build flavors across 270+ merchant apps. Achieved 55.9% faster CI builds on CircleCI and 83.6% faster local builds (from 5m29s to 54s), reducing engineering time and CI costs company-wide."
+        "description": "Optimized Gradle JVM configuration for Android build flavors across 334 merchant apps. Achieved 55.9% faster CI builds on CircleCI and 83.6% faster local builds (from 5m29s to 54s), reducing engineering time and CI costs company-wide."
       },
       "thanx-appops-cli": {
         "description": "Built a suite of 6 Node.js CLI tools automating core operational workflows: release cuts, SendGrid custom domain setup, Firebase app creation, Apple agreement emails, and Android app signing. Used across the entire engineering org to standardize and accelerate merchant operations."

@@ -41,14 +41,14 @@
     "title": "Experiencia",
     "items": {
       "thanx-toe": {
-        "description": "Responsable de las operaciones de apps móviles para más de 270 apps de comercios en el equipo Apple Pie Squad, construyendo automatización y herramientas para escalar el trabajo por comercio en toda la flota.",
+        "description": "Responsable de las operaciones de apps móviles para 334 apps de comercios en el equipo Apple Pie Squad, construyendo automatización y herramientas para escalar el trabajo por comercio en toda la flota.",
         "highlights": [
-          "Lideré una iniciativa de conversión de SOPs en comandos de IA, transformando más de 17 runbooks operativos en comandos reutilizables de Claude Code e impulsando la adopción de operaciones asistidas por IA en toda la organización.",
-          "Reduje los builds de CI de Android en un 56% y los locales en un 84% (de 5m29s a 54s) en más de 270 flavors de apps de comercios mediante el ajuste de la JVM de Gradle.",
+          "Convertí más de 17 runbooks operativos en comandos reutilizables de Claude Code, impulsando la adopción de operaciones asistidas por IA en toda la organización.",
+          "Reduje los builds de CI de Android en un 56% y los locales en un 84% (de 5m29s a 54s) en 334 flavors de apps de comercios mediante el ajuste de la JVM de Gradle.",
           "Construí un sistema multiagente de detección de lanzamientos que monitorea las salidas a producción, publica resúmenes generados por IA en Slack e integra datos de registros y errores de Looker.",
           "Automaticé la renovación de certificados de notificaciones push de Apple (APNs) con un job programado y alertas, eliminando trabajo manual y el riesgo de interrupciones en toda la flota.",
           "Construí herramientas de release móvil para hotfixes y control de despliegue escalonado, publicando más de 18 actualizaciones de apps y haciendo los releases más rápidos y seguros de operar.",
-          "Escalé el trabajo por comercio en más de 270 apps automatizando pasos del onboarding como la configuración de Firebase, cuentas de tiendas, pagos móviles y fuentes personalizadas.",
+          "Escalé el trabajo por comercio en 334 apps automatizando pasos del onboarding como la configuración de Firebase, cuentas de tiendas, pagos móviles y fuentes personalizadas.",
           "Construí triggers de automatización de soporte en Zendesk para flujos de membresía, cuentas y manejo de errores, reduciendo la gestión manual de soporte."
         ]
       },
@@ -92,7 +92,7 @@
         "description": "Automaticé la renovación de certificados de Apple Push Notification mediante un cron job que detecta certificados por vencer y los renueva automáticamente. Incluye alertas por webhook de Slack y monitoreo, eliminando un proceso manual que antes ponía en riesgo el envío de notificaciones push de las apps de comercios."
       },
       "android-build-optimization": {
-        "description": "Optimicé la configuración de la JVM de Gradle para los flavors de build de Android en más de 270 apps de comercios. Logré builds de CI un 55,9% más rápidos en CircleCI y builds locales un 83,6% más rápidos (de 5m29s a 54s), reduciendo el tiempo de ingeniería y los costos de CI en toda la empresa."
+        "description": "Optimicé la configuración de la JVM de Gradle para los flavors de build de Android en 334 apps de comercios. Logré builds de CI un 55,9% más rápidos en CircleCI y builds locales un 83,6% más rápidos (de 5m29s a 54s), reduciendo el tiempo de ingeniería y los costos de CI en toda la empresa."
       },
       "thanx-appops-cli": {
         "description": "Desarrollé un conjunto de 6 herramientas CLI en Node.js que automatizan flujos operativos clave: release cuts, configuración de dominios de correo personalizados en SendGrid, creación de apps en Firebase, correos de acuerdos de Apple y firma de apps de Android. Usadas por toda la organización de ingeniería para estandarizar y acelerar las operaciones con comercios."

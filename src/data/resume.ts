@@ -23,7 +23,7 @@ export const resume: ResumeData = {
     ],
   },
   metrics: [
-    { id: 'apps', value: '270+' },
+    { id: 'apps', value: '334' },
     { id: 'ci-speed', value: '56%' },
     { id: 'local-speed', value: '84%' },
     { id: 'sops', value: '24+' },
