@@ -29,13 +29,13 @@
   },
   "hero": {
     "role": "Platform & Backend Engineer",
-    "basedIn": "Based in {{city}}",
-    "summary": "With a passion for perfection, my goal is to contribute my skills and expertise to a supportive and stable company. I am driven to continuously develop and improve my abilities, aiming to become an exceptional software developer."
+    "basedIn": "Based in {{city}}, {{country}}",
+    "summary": "I build backend services, developer tooling, and CI/CD automation — currently running mobile-app operations for 334 merchant apps at Thanx, where I cut Android build times up to 84%. I'm at my best turning slow, manual workflows into fast, reliable automation."
   },
   "about": {
     "title": "About Me",
     "contact": "Contact",
-    "bio": "As a driven professional, I possess an unwavering determination to excel and continuously grow in my work. I thrive on challenges and consistently strive for excellence in every endeavor. My relentless pursuit of improvement fuels my motivation to deliver exceptional results and surpass expectations. With a strong work ethic and a commitment to excellence, I consistently strive to go above and beyond to achieve optimal outcomes."
+    "bio": "I'm a platform and backend engineer with 7+ years across media, retail, and loyalty platforms — AMC Networks, GameStop, Rappi, and now Thanx. I focus on the work that makes teams faster: build and release pipelines, internal CLIs and scaffolding, and automating per-merchant operations across a fleet of 334 mobile apps. I care about reliability, clean tooling, and removing manual toil so engineers can ship with confidence."
   },
   "experience": {
     "title": "Experience",

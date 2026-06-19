@@ -13,7 +13,7 @@ export function About() {
         <ul className="mt-2 space-y-1 text-ink-muted">
           <li>{name}</li>
           <li>
-            {address.state} — {address.city}
+            {address.city}, {address.state}, {address.country}
           </li>
           <li>{phone}</li>
           <li>

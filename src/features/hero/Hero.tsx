@@ -15,7 +15,7 @@ export function Hero() {
       </p>
       <h1 className="mt-3 font-display text-5xl font-semibold text-ink sm:text-6xl">{name}</h1>
       <p className="mt-4 max-w-2xl text-lg text-ink-muted">
-        {t('hero.basedIn', { city: address.city })}. {t('hero.summary')}
+        {t('hero.basedIn', { city: address.city, country: address.country })}. {t('hero.summary')}
       </p>
       <div className="mt-6">
         <SocialLinks social={social} />

@@ -11,7 +11,7 @@ export const resume: ResumeData = {
     occupation: 'Platform Engineer / Backend Developer',
     email: 'mischuk.ti@gmail.com',
     phone: '+54 9 223 518-1256',
-    address: { city: 'Mar Del Plata', state: 'Buenos Aires' },
+    address: { city: 'Mar del Plata', state: 'Buenos Aires', country: 'Argentina' },
     social: [
       {
         name: 'linkedin',

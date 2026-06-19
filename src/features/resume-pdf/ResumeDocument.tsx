@@ -27,7 +27,7 @@ export function ResumeDocument() {
           {' · '}
           {phone}
           {' · '}
-          {address.city}, {address.state}
+          {address.city}, {address.state}, {address.country}
           {social.map((s) => (
             <span key={s.name}>
               {' · '}

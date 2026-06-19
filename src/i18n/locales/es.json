@@ -29,13 +29,13 @@
   },
   "hero": {
     "role": "Platform & Backend Engineer",
-    "basedIn": "Radicado en {{city}}",
-    "summary": "Con una pasión por la excelencia, mi objetivo es aportar mis habilidades y experiencia a una empresa estable y con buen acompañamiento. Me impulsa el deseo de desarrollar y mejorar continuamente mis capacidades, con la meta de convertirme en un desarrollador de software excepcional."
+    "basedIn": "Radicado en {{city}}, {{country}}",
+    "summary": "Construyo servicios backend, herramientas para desarrolladores y automatización de CI/CD. Actualmente llevo las operaciones de apps móviles de 334 aplicaciones de comercios en Thanx, donde reduje los tiempos de compilación de Android hasta un 84%. Doy lo mejor de mí convirtiendo flujos de trabajo lentos y manuales en automatización rápida y confiable."
   },
   "about": {
     "title": "Sobre mí",
     "contact": "Contacto",
-    "bio": "Como profesional motivado, tengo una determinación inquebrantable para destacar y crecer de forma continua en mi trabajo. Disfruto de los desafíos y busco constantemente la excelencia en cada tarea. Mi búsqueda incansable de mejora alimenta mi motivación para entregar resultados excepcionales y superar las expectativas. Con una fuerte ética de trabajo y un compromiso con la excelencia, siempre me esfuerzo por ir más allá para lograr resultados óptimos."
+    "bio": "Soy ingeniero de plataforma y backend con más de 7 años en plataformas de medios, retail y fidelización — AMC Networks, GameStop, Rappi y ahora Thanx. Me enfoco en el trabajo que hace más rápidos a los equipos: pipelines de build y release, CLIs internas y scaffolding, y la automatización de operaciones por comercio en una flota de 334 apps móviles. Me importan la confiabilidad, las herramientas claras y eliminar el trabajo manual para que los ingenieros puedan publicar con confianza."
   },
   "experience": {
     "title": "Experiencia",

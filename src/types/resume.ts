@@ -7,6 +7,7 @@ export interface Social {
 export interface Address {
   city: string;
   state: string;
+  country: string;
 }
 
 export interface Main {
