@@ -1,6 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import { LangToggle } from './LangToggle';
 import { ThemeToggle } from './ThemeToggle';
+import { DownloadResume } from './DownloadResume';
 
 const SECTIONS = ['home', 'about', 'skills', 'experience', 'education', 'projects'] as const;
 
@@ -19,6 +20,7 @@ export function Header() {
           ))}
         </ul>
         <div className="flex items-center gap-3">
+          <DownloadResume />
           <LangToggle />
           <ThemeToggle />
         </div>

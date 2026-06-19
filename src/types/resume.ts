@@ -12,7 +12,6 @@ export interface Address {
 export interface Main {
   name: string;
   occupation: string;
-  profilePicture: string;
   email: string;
   phone: string;
   address: Address;

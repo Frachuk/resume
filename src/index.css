@@ -52,3 +52,15 @@ body {
   color: var(--color-ink);
   font-family: var(--font-sans);
 }
+
+@media print {
+  @page {
+    size: letter;
+    margin: 14mm;
+  }
+
+  html,
+  body {
+    background: #fff;
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "common": { "language": "Idioma", "theme": "Tema" },
+  "common": { "language": "Idioma", "theme": "Tema", "downloadResume": "Descargar CV" },
   "nav": {
     "home": "Inicio",
     "about": "Sobre mí",
@@ -76,6 +76,9 @@
         "description": "Di mis primeros pasos en el mundo de la programación, sentando las bases de mi conocimiento técnico. A través de cursos atractivos y proyectos prácticos, adquirí dominio en lenguajes de programación, algoritmos y principios de desarrollo de software. Esta experiencia inmersiva despertó mi curiosidad y afinó mis habilidades para resolver problemas, impulsando mi pasión por una carrera en tecnología."
       }
     }
+  },
+  "resumePdf": {
+    "summary": "Ingeniero de plataforma y backend con más de 7 años construyendo servicios backend, herramientas para desarrolladores y automatización de CI/CD para plataformas de cara al usuario (AMC Networks, GameStop, Rappi, Thanx). Actualmente lidero las operaciones de apps móviles de 334 aplicaciones de comercios en Thanx, donde reduje los tiempos de compilación de Android hasta un 84% y automaticé los flujos de lanzamiento, certificados y onboarding en toda la flota. Cómodo en todo el stack — Node.js/TypeScript, Java, Go — con AWS, Docker e infraestructura como código."
   },
   "projects": {
     "title": "Proyectos",

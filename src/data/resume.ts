@@ -9,7 +9,6 @@ export const resume: ResumeData = {
   main: {
     name: 'Franco Mischuk',
     occupation: 'Platform Engineer / Backend Developer',
-    profilePicture: '/images/profilepic.jpg',
     email: 'mischuk.ti@gmail.com',
     phone: '+54 9 223 518-1256',
     address: { city: 'Mar Del Plata', state: 'Buenos Aires' },

@@ -1,5 +1,5 @@
 {
-  "common": { "language": "Language", "theme": "Theme" },
+  "common": { "language": "Language", "theme": "Theme", "downloadResume": "Download résumé" },
   "nav": {
     "home": "Home",
     "about": "About",
@@ -76,6 +76,9 @@
         "description": "I took my first steps in the programming world, laying the foundation of my technical knowledge. Through engaging coursework and practical projects, I gained proficiency in programming languages, algorithms, and software development principles. This immersive experience ignited my curiosity and honed my problem-solving skills, fueling my passion for pursuing a career in technology."
       }
     }
+  },
+  "resumePdf": {
+    "summary": "Platform and backend engineer with 7+ years building backend services, developer tooling, and CI/CD automation for consumer-facing platforms (AMC Networks, GameStop, Rappi, Thanx). Currently own mobile-app operations for 334 merchant apps at Thanx, where I cut Android build times by up to 84% and automated release, certificate, and onboarding workflows across the fleet. Comfortable across the stack — Node.js/TypeScript, Java, Go — with AWS, Docker, and infrastructure-as-code."
   },
   "projects": {
     "title": "Projects",
