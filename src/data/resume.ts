@@ -8,7 +8,7 @@ import type { ResumeData } from '@/types/resume';
 export const resume: ResumeData = {
   main: {
     name: 'Franco Mischuk',
-    occupation: 'Platform Engineer / Backend Developer',
+    occupation: 'Operations & AI Automation Engineer',
     email: 'mischuk.ti@gmail.com',
     phone: '+54 9 223 518-1256',
     address: { city: 'Mar del Plata', state: 'Buenos Aires', country: 'Argentina' },

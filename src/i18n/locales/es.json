@@ -28,20 +28,20 @@
     }
   },
   "hero": {
-    "role": "Platform & Backend Engineer",
+    "role": "Operations Engineer · AI Automation & Agentic Workflows",
     "basedIn": "Radicado en {{city}}, {{country}}",
-    "summary": "Construyo servicios backend, herramientas para desarrolladores y automatización de CI/CD. Actualmente llevo las operaciones de apps móviles de 334 aplicaciones de comercios en Thanx, donde reduje los tiempos de compilación de Android hasta un 84%. Doy lo mejor de mí convirtiendo flujos de trabajo lentos y manuales en automatización rápida y confiable."
+    "summary": "Construyo automatización impulsada por IA y flujos de trabajo agénticos que operan apps móviles a escala: 334 aplicaciones de comercios en Thanx, donde convertí más de 17 runbooks operativos en agentes basados en Claude y reduje los tiempos de compilación de Android hasta un 84%. Doy lo mejor de mí convirtiendo trabajo manual y repetitivo en sistemas que funcionan solos."
   },
   "about": {
     "title": "Sobre mí",
     "contact": "Contacto",
-    "bio": "Soy ingeniero de plataforma y backend con más de 7 años en plataformas de medios, retail y fidelización — AMC Networks, GameStop, Rappi y ahora Thanx. Me enfoco en el trabajo que hace más rápidos a los equipos: pipelines de build y release, CLIs internas y scaffolding, y la automatización de operaciones por comercio en una flota de 334 apps móviles. Me importan la confiabilidad, las herramientas claras y eliminar el trabajo manual para que los ingenieros puedan publicar con confianza."
+    "bio": "Soy ingeniero de operaciones y plataforma con más de 7 años en plataformas de medios, retail y fidelización (AMC Networks, GameStop, Rappi y ahora Thanx). Hoy mi foco es la automatización impulsada por IA: flujos de trabajo agénticos, monitoreo autónomo y herramientas internas que escalan las operaciones por comercio en una flota de 334 apps móviles. Mi base es el trabajo de backend y plataforma (pipelines de build y release, CLIs internas, scaffolding), y el hilo conductor es siempre el mismo: las operaciones no deberían escalar con la cantidad de gente."
   },
   "experience": {
     "title": "Experiencia",
     "items": {
       "thanx-toe": {
-        "description": "Responsable de las operaciones de apps móviles para 334 apps de comercios en el equipo Apple Pie Squad, construyendo automatización y herramientas para escalar el trabajo por comercio en toda la flota.",
+        "description": "Responsable de las operaciones de apps móviles para 334 apps de comercios en el equipo de Operaciones Técnicas, construyendo agentes de IA, APIs internas y automatización para escalar el trabajo por comercio en toda la flota.",
         "highlights": [
           "Convertí más de 17 runbooks operativos en comandos reutilizables de Claude Code, impulsando la adopción de operaciones asistidas por IA en toda la organización.",
           "Reduje los builds de CI de Android en un 56% y los locales en un 84% (de 5m29s a 54s) en 334 flavors de apps de comercios mediante el ajuste de la JVM de Gradle.",
@@ -78,7 +78,7 @@
     }
   },
   "resumePdf": {
-    "summary": "Ingeniero de plataforma y backend con más de 7 años construyendo servicios backend, herramientas para desarrolladores y automatización de CI/CD para plataformas de cara al usuario (AMC Networks, GameStop, Rappi, Thanx). Actualmente lidero las operaciones de apps móviles de 334 aplicaciones de comercios en Thanx, donde reduje los tiempos de compilación de Android hasta un 84% y automaticé los flujos de lanzamiento, certificados y onboarding en toda la flota. Cómodo en todo el stack — Node.js/TypeScript, Java, Go — con AWS, Docker e infraestructura como código."
+    "summary": "Ingeniero de operaciones y plataforma con más de 7 años construyendo servicios backend, herramientas para desarrolladores y automatización para plataformas de cara al usuario (AMC Networks, GameStop, Rappi, Thanx). Actualmente lidero las operaciones de apps móviles de 334 aplicaciones de comercios en Thanx, construyendo automatización asistida por IA (agentes de Claude, flujos de trabajo agénticos) para lanzamientos, certificados, monitoreo y onboarding, y reduje los tiempos de compilación de Android hasta un 84%. Cómodo en todo el stack (Node.js/TypeScript, Ruby, Java, Go) con AWS, Docker e infraestructura como código."
   },
   "projects": {
     "title": "Proyectos",
@@ -110,7 +110,7 @@
         "description": "Desarrollé un servicio ETL que parsea contenido mediante integraciones de terceros, lo procesa a través de event streams de Kafka y almacena los resultados en S3. Mejoré las capacidades de búsqueda multiplataforma de AMC unificando contenido de múltiples fuentes en un único índice consultable."
       },
       "resume-site": {
-        "description": "Proyecto personal — una página de currículum responsive construida con React y desplegada en GitHub Pages. Cuenta con una arquitectura basada en componentes, i18n, un sistema de temas basado en tokens y cobertura de tests con Vitest."
+        "description": "Proyecto personal: una página de currículum responsive construida con React y desplegada en GitHub Pages. Cuenta con una arquitectura basada en componentes, i18n, un sistema de temas basado en tokens y cobertura de tests con Vitest."
       },
       "savvi-ui": {
         "description": "Refactoricé una plataforma de e-commerce existente para reducir la complejidad del código y mejorar el rendimiento de las páginas, logrando un código más limpio y tiempos de carga más rápidos."
@@ -125,13 +125,13 @@
         "description": "Desarrollé un servicio orientado a eventos, disparado por eventos de escritura en S3, que genera automáticamente órdenes de envío a partir de los datos de los archivos subidos, procesando mensajes vía SQS para un cumplimiento de pedidos confiable."
       },
       "rappi-games": {
-        "description": "Desarrollé el servicio backend que gestiona los tokens de torneos para Rappi Games — manejando la emisión, el canje y el seguimiento de saldos de tokens para soportar torneos de juegos in-app en la base de usuarios de Rappi."
+        "description": "Desarrollé el servicio backend que gestiona los tokens de torneos para Rappi Games, manejando la emisión, el canje y el seguimiento de saldos de tokens para soportar torneos de juegos in-app en la base de usuarios de Rappi."
       },
       "rappi-live": {
-        "description": "Construí el backend de la funcionalidad de comercio por streaming en vivo de Rappi, permitiendo a los usuarios comprar y ver transmisiones en vivo directamente dentro de la app — combinando entrega de contenido con procesamiento de pagos integrado."
+        "description": "Construí el backend de la funcionalidad de comercio por streaming en vivo de Rappi, permitiendo a los usuarios comprar y ver transmisiones en vivo directamente dentro de la app, combinando entrega de contenido con procesamiento de pagos integrado."
       },
       "rappi-gifts": {
-        "description": "Desarrollé la funcionalidad de envío de regalos para la tienda de Rappi, permitiendo a los usuarios seleccionar productos y enviarlos como regalos a sus contactos con entrega personalizada — integrada en los flujos existentes de checkout y logística."
+        "description": "Desarrollé la funcionalidad de envío de regalos para la tienda de Rappi, permitiendo a los usuarios seleccionar productos y enviarlos como regalos a sus contactos con entrega personalizada, integrada en los flujos existentes de checkout y logística."
       },
       "rappi-ticket-events": {
         "description": "Construí el servicio backend para la venta de entradas de conciertos a través de Rappi, integrando múltiples proveedores de ticketing de Latinoamérica vía APIs SOAP. Manejé la sincronización del catálogo de eventos, la selección de asientos y la orquestación de pagos entre los distintos sistemas de proveedores."

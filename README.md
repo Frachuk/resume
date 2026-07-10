@@ -1,6 +1,6 @@
 # Resume
 
-Personal resume and portfolio site for Franco Mischuk, Platform & Backend Engineer.
+Personal resume and portfolio site for Franco Mischuk, Operations & AI Automation Engineer.
 Live at [frachuk.github.io/resume](https://frachuk.github.io/resume).
 
 ## Stack

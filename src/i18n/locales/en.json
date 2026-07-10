@@ -28,20 +28,20 @@
     }
   },
   "hero": {
-    "role": "Platform & Backend Engineer",
+    "role": "Operations Engineer · AI Automation & Agentic Workflows",
     "basedIn": "Based in {{city}}, {{country}}",
-    "summary": "I build backend services, developer tooling, and CI/CD automation — currently running mobile-app operations for 334 merchant apps at Thanx, where I cut Android build times up to 84%. I'm at my best turning slow, manual workflows into fast, reliable automation."
+    "summary": "I build AI-powered automation and agentic workflows that run mobile operations at scale: 334 merchant apps at Thanx, where I converted 17+ operational runbooks into Claude-based agents and cut Android build times by up to 84%. I'm at my best turning manual, repetitive work into systems that run themselves."
   },
   "about": {
     "title": "About Me",
     "contact": "Contact",
-    "bio": "I'm a platform and backend engineer with 7+ years across media, retail, and loyalty platforms — AMC Networks, GameStop, Rappi, and now Thanx. I focus on the work that makes teams faster: build and release pipelines, internal CLIs and scaffolding, and automating per-merchant operations across a fleet of 334 mobile apps. I care about reliability, clean tooling, and removing manual toil so engineers can ship with confidence."
+    "bio": "I'm an operations and platform engineer with 7+ years across media, retail, and loyalty platforms (AMC Networks, GameStop, Rappi, and now Thanx). Today my focus is AI-powered automation: agentic workflows, autonomous monitoring, and internal tooling that scale per-merchant operations across a fleet of 334 mobile apps. My foundation is backend and platform work (build and release pipelines, internal CLIs, scaffolding), and the through-line is the same everywhere: operations shouldn't scale with headcount."
   },
   "experience": {
     "title": "Experience",
     "items": {
       "thanx-toe": {
-        "description": "Own mobile app operations for 334 merchant apps on the Apple Pie Squad, building automation and tooling to scale per-merchant work across the fleet.",
+        "description": "Own mobile app operations for 334 merchant apps on the Technical Operations team, building AI agents, internal APIs, and automation to scale per-merchant work across the fleet.",
         "highlights": [
           "Converted 17+ operational runbooks into reusable Claude Code commands, driving org-wide adoption of AI-assisted operations.",
           "Cut Android CI builds by 56% and local builds by 84% (5m29s to 54s) across 334 merchant app flavors through Gradle JVM tuning.",
@@ -62,7 +62,7 @@
         "description": "Delivered full-stack features across multiple client projects (Rappi, Origenes Seguros). Beyond development, conducted technical interviews and mentored new hires to help grow the engineering team."
       },
       "boldt-technician": {
-        "description": "Handled end-to-end setup of slot machines — from hardware installation to software configuration. Performed integration testing, diagnostics, and troubleshooting to ensure reliable operation across the casino floor."
+        "description": "Handled end-to-end setup of slot machines, from hardware installation to software configuration. Performed integration testing, diagnostics, and troubleshooting to ensure reliable operation across the casino floor."
       }
     }
   },
@@ -78,7 +78,7 @@
     }
   },
   "resumePdf": {
-    "summary": "Platform and backend engineer with 7+ years building backend services, developer tooling, and CI/CD automation for consumer-facing platforms (AMC Networks, GameStop, Rappi, Thanx). Currently own mobile-app operations for 334 merchant apps at Thanx, where I cut Android build times by up to 84% and automated release, certificate, and onboarding workflows across the fleet. Comfortable across the stack — Node.js/TypeScript, Java, Go — with AWS, Docker, and infrastructure-as-code."
+    "summary": "Operations and platform engineer with 7+ years building backend services, developer tooling, and automation for consumer-facing platforms (AMC Networks, GameStop, Rappi, Thanx). Currently own mobile-app operations for 334 merchant apps at Thanx, building AI-assisted automation (Claude agents, agentic workflows) for release, certificate, monitoring, and onboarding workflows, and cutting Android build times by up to 84%. Comfortable across the stack (Node.js/TypeScript, Ruby, Java, Go) with AWS, Docker, and infrastructure-as-code."
   },
   "projects": {
     "title": "Projects",
@@ -110,7 +110,7 @@
         "description": "Developed an ETL service that parses content via third-party integrations, processes it through Kafka event streams, and stores results in S3. Enhanced AMC's cross-platform search capabilities by unifying content from multiple sources into a single searchable index."
       },
       "resume-site": {
-        "description": "Personal project — a responsive resume page built with React, deployed to GitHub Pages. Features a component-based architecture with i18n, a token-based theme system, and Vitest test coverage."
+        "description": "Personal project: a responsive resume page built with React, deployed to GitHub Pages. Features a component-based architecture with i18n, a token-based theme system, and Vitest test coverage."
       },
       "savvi-ui": {
         "description": "Refactored an existing e-commerce platform to reduce code complexity and improve page performance, resulting in a cleaner codebase and faster load times."
@@ -125,13 +125,13 @@
         "description": "Developed an event-driven service triggered by S3 write events that automatically generates shipment orders from uploaded file data, processing messages via SQS for reliable order fulfillment."
       },
       "rappi-games": {
-        "description": "Developed the backend service powering tournament token management for Rappi Games — handling token issuance, redemption, and balance tracking to support in-app gaming tournaments across Rappi's user base."
+        "description": "Developed the backend service powering tournament token management for Rappi Games, handling token issuance, redemption, and balance tracking to support in-app gaming tournaments across Rappi's user base."
       },
       "rappi-live": {
-        "description": "Built the backend for Rappi's live streaming commerce feature, enabling users to purchase and watch live streams directly within the app — combining content delivery with integrated payment processing."
+        "description": "Built the backend for Rappi's live streaming commerce feature, enabling users to purchase and watch live streams directly within the app, combining content delivery with integrated payment processing."
       },
       "rappi-gifts": {
-        "description": "Developed the gift-sending feature for Rappi's store, allowing users to select products and send them as gifts to contacts with personalized delivery — integrated into the existing checkout and logistics flows."
+        "description": "Developed the gift-sending feature for Rappi's store, allowing users to select products and send them as gifts to contacts with personalized delivery, integrated into the existing checkout and logistics flows."
       },
       "rappi-ticket-events": {
         "description": "Built the backend service for selling concert tickets through Rappi, integrating with multiple Latin American ticketing providers via SOAP APIs. Handled event catalog sync, seat selection, and payment orchestration across different vendor systems."
