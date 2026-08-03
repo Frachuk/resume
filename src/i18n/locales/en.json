@@ -13,7 +13,7 @@
       "apps": "Merchant apps owned",
       "ci-speed": "Faster CI builds",
       "local-speed": "Faster local builds",
-      "sops": "SOPs automated"
+      "sops": "Runbooks automated"
     }
   },
   "skills": {
@@ -30,7 +30,7 @@
   "hero": {
     "role": "Operations Engineer · AI Automation & Agentic Workflows",
     "basedIn": "Based in {{city}}, {{country}}",
-    "summary": "I build AI-powered automation and agentic workflows that run mobile operations at scale: 334 merchant apps at Thanx, where I converted 17+ operational runbooks into Claude-based agents and cut Android build times by up to 84%. I'm at my best turning manual, repetitive work into systems that run themselves."
+    "summary": "I build AI-powered automation and agentic workflows that run mobile operations at scale: 334 merchant apps at Thanx, where I converted 24+ operational runbooks into Claude-based agents and cut Android build times by up to 84%. I'm at my best turning manual, repetitive work into systems that run themselves."
   },
   "about": {
     "title": "About Me",
@@ -43,7 +43,7 @@
       "thanx-toe": {
         "description": "Own mobile app operations for 334 merchant apps on the Technical Operations team, building AI agents, internal APIs, and automation to scale per-merchant work across the fleet.",
         "highlights": [
-          "Converted 17+ operational runbooks into reusable Claude Code commands, driving org-wide adoption of AI-assisted operations.",
+          "Converted 24+ operational runbooks into reusable Claude Code commands, driving org-wide adoption of AI-assisted operations.",
           "Cut Android CI builds by 56% and local builds by 84% (5m29s to 54s) across 334 merchant app flavors through Gradle JVM tuning.",
           "Built a multi-agent launch-detection system that monitors app go-lives, posts AI-generated summaries to Slack, and integrates Looker signup and error data.",
           "Automated Apple Push Notification (APNs) certificate renewal with a scheduled job and alerting, removing manual toil and outage risk across the fleet.",
@@ -89,7 +89,7 @@
     "visit": "Visit",
     "items": {
       "aps-ai-brain": {
-        "description": "Designed a multi-agent cognitive system (AI Brain) for team operations with structured memory, workflow automation, and scoped agents. Led conversion of 24+ SOPs into reusable Claude commands via thanx-claude-plugins, enabling company-wide AI-assisted operational automation."
+        "description": "Designed a multi-agent cognitive system (AI Brain) for team operations with structured memory, workflow automation, and scoped agents. Led conversion of 24+ runbooks into reusable Claude commands via thanx-claude-plugins, enabling company-wide AI-assisted operational automation."
       },
       "apns-cert-automation": {
         "description": "Automated Apple Push Notification certificate renewal via a cron job that detects expiring certificates and renews them automatically. Includes Slack webhook alerts and monitoring, eliminating a manual process that previously risked push notification outages for merchant apps."
@@ -101,7 +101,7 @@
         "description": "Built a suite of 6 Node.js CLI tools automating core operational workflows: release cuts, SendGrid custom domain setup, Firebase app creation, Apple agreement emails, and Android app signing. Used across the entire engineering org to standardize and accelerate merchant operations."
       },
       "fastlane-release-pipeline": {
-        "description": "Built a cache layer for Fastlane's fetch_app_configuration to eliminate redundant API calls during builds. Fixed critical pipeline blockers affecting all iOS releases, discovered workarounds for Apple-side issues, and modernized the release cut SOP with a data-driven validation approach."
+        "description": "Built a cache layer for Fastlane's fetch_app_configuration to eliminate redundant API calls during builds. Fixed critical pipeline blockers affecting all iOS releases, discovered workarounds for Apple-side issues, and modernized the release cut runbook with a data-driven validation approach."
       },
       "amc-ingest-script": {
         "description": "Built an automated pipeline that fetches streaming schedule data from Nielsen via FTP, enriches it through a CMS, and stores assets in Cloudinary. Runs on AWS Batch for scalable execution with CloudWatch monitoring and Splunk logging, replacing a manual workflow and ensuring up-to-date scheduling data across AMC's platforms."

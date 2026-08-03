@@ -13,7 +13,7 @@
       "apps": "Apps de comercios gestionadas",
       "ci-speed": "Builds de CI más rápidos",
       "local-speed": "Builds locales más rápidos",
-      "sops": "SOPs automatizados"
+      "sops": "Runbooks automatizados"
     }
   },
   "skills": {
@@ -30,7 +30,7 @@
   "hero": {
     "role": "Operations Engineer · AI Automation & Agentic Workflows",
     "basedIn": "Radicado en {{city}}, {{country}}",
-    "summary": "Construyo automatización impulsada por IA y flujos de trabajo agénticos que operan apps móviles a escala: 334 aplicaciones de comercios en Thanx, donde convertí más de 17 runbooks operativos en agentes basados en Claude y reduje los tiempos de compilación de Android hasta un 84%. Doy lo mejor de mí convirtiendo trabajo manual y repetitivo en sistemas que funcionan solos."
+    "summary": "Construyo automatización impulsada por IA y flujos de trabajo agénticos que operan apps móviles a escala: 334 aplicaciones de comercios en Thanx, donde convertí más de 24 runbooks operativos en agentes basados en Claude y reduje los tiempos de compilación de Android hasta un 84%. Doy lo mejor de mí convirtiendo trabajo manual y repetitivo en sistemas que funcionan solos."
   },
   "about": {
     "title": "Sobre mí",
@@ -43,7 +43,7 @@
       "thanx-toe": {
         "description": "Responsable de las operaciones de apps móviles para 334 apps de comercios en el equipo de Operaciones Técnicas, construyendo agentes de IA, APIs internas y automatización para escalar el trabajo por comercio en toda la flota.",
         "highlights": [
-          "Convertí más de 17 runbooks operativos en comandos reutilizables de Claude Code, impulsando la adopción de operaciones asistidas por IA en toda la organización.",
+          "Convertí más de 24 runbooks operativos en comandos reutilizables de Claude Code, impulsando la adopción de operaciones asistidas por IA en toda la organización.",
           "Reduje los builds de CI de Android en un 56% y los locales en un 84% (de 5m29s a 54s) en 334 flavors de apps de comercios mediante el ajuste de la JVM de Gradle.",
           "Construí un sistema multiagente de detección de lanzamientos que monitorea las salidas a producción, publica resúmenes generados por IA en Slack e integra datos de registros y errores de Looker.",
           "Automaticé la renovación de certificados de notificaciones push de Apple (APNs) con un job programado y alertas, eliminando trabajo manual y el riesgo de interrupciones en toda la flota.",
@@ -89,7 +89,7 @@
     "visit": "Visitar",
     "items": {
       "aps-ai-brain": {
-        "description": "Diseñé un sistema cognitivo multiagente (AI Brain) para las operaciones del equipo, con memoria estructurada, automatización de flujos de trabajo y agentes acotados. Lideré la conversión de más de 24 SOPs en comandos reutilizables de Claude mediante thanx-claude-plugins, habilitando la automatización operativa asistida por IA en toda la empresa."
+        "description": "Diseñé un sistema cognitivo multiagente (AI Brain) para las operaciones del equipo, con memoria estructurada, automatización de flujos de trabajo y agentes acotados. Lideré la conversión de más de 24 runbooks en comandos reutilizables de Claude mediante thanx-claude-plugins, habilitando la automatización operativa asistida por IA en toda la empresa."
       },
       "apns-cert-automation": {
         "description": "Automaticé la renovación de certificados de Apple Push Notification mediante un cron job que detecta certificados por vencer y los renueva automáticamente. Incluye alertas por webhook de Slack y monitoreo, eliminando un proceso manual que antes ponía en riesgo el envío de notificaciones push de las apps de comercios."
@@ -101,7 +101,7 @@
         "description": "Desarrollé un conjunto de 6 herramientas CLI en Node.js que automatizan flujos operativos clave: release cuts, configuración de dominios de correo personalizados en SendGrid, creación de apps en Firebase, correos de acuerdos de Apple y firma de apps de Android. Usadas por toda la organización de ingeniería para estandarizar y acelerar las operaciones con comercios."
       },
       "fastlane-release-pipeline": {
-        "description": "Construí una capa de caché para fetch_app_configuration de Fastlane para eliminar llamadas redundantes a la API durante los builds. Resolví bloqueos críticos del pipeline que afectaban a todos los releases de iOS, encontré soluciones para problemas del lado de Apple y modernicé el SOP de release cut con un enfoque de validación basado en datos."
+        "description": "Construí una capa de caché para fetch_app_configuration de Fastlane para eliminar llamadas redundantes a la API durante los builds. Resolví bloqueos críticos del pipeline que afectaban a todos los releases de iOS, encontré soluciones para problemas del lado de Apple y modernicé el runbook de release cut con un enfoque de validación basado en datos."
       },
       "amc-ingest-script": {
         "description": "Construí un pipeline automatizado que obtiene datos de programación de streaming desde Nielsen vía FTP, los enriquece a través de un CMS y almacena los assets en Cloudinary. Corre en AWS Batch para una ejecución escalable, con monitoreo en CloudWatch y logging en Splunk, reemplazando un flujo manual y asegurando datos de programación actualizados en las plataformas de AMC."
