@@ -20,6 +20,7 @@
     "title": "Skills",
     "categories": {
       "languages": "Languages",
+      "ai": "AI & Automation",
       "frameworks": "Frameworks",
       "cloud": "Cloud & Infrastructure",
       "cicd": "CI/CD & Tooling",
@@ -28,25 +29,25 @@
     }
   },
   "hero": {
-    "role": "Operations Engineer · AI Automation & Agentic Workflows",
+    "role": "Mobile Platform Engineer · AI Automation",
     "basedIn": "Based in {{city}}, {{country}}",
-    "summary": "I build AI-powered automation and agentic workflows that run mobile operations at scale: 334 merchant apps at Thanx, where I converted 24+ operational runbooks into Claude-based agents and cut Android build times by up to 84%. I'm at my best turning manual, repetitive work into systems that run themselves."
+    "summary": "I build and run the infrastructure behind 334 white-label mobile apps at Thanx: build and release pipelines, push notifications, store publishing, and the internal APIs and CLIs that connect them. Most of the repetitive operational work now runs through Claude-based agents I wrote, with the same review, tests, and staged rollouts as any other code."
   },
   "about": {
     "title": "About Me",
     "contact": "Contact",
-    "bio": "I'm an operations and platform engineer with 7+ years across media, retail, and loyalty platforms (AMC Networks, GameStop, Rappi, and now Thanx). Today my focus is AI-powered automation: agentic workflows, autonomous monitoring, and internal tooling that scale per-merchant operations across a fleet of 334 mobile apps. My foundation is backend and platform work (build and release pipelines, internal CLIs, scaffolding), and the through-line is the same everywhere: operations shouldn't scale with headcount."
+    "bio": "I'm a software engineer with 7+ years across media, retail, delivery, and loyalty platforms (AMC Networks, GameStop, Rappi, Thanx). Most of that time was backend and platform work in Node.js and TypeScript: services, data pipelines, CI/CD, and the scaffolding other teams build on. At Thanx I own the mobile platform for a fleet of white-label apps, and the job is to make operating the next app cost nothing extra. Recent examples: moving iOS push for 178 apps to token auth behind a feature flag, and cutting Android builds by 84%. Outside work I build products end to end: a clinical records system in React and Python that a psychologist uses every day, and a food-label scanner backed by my own PyTorch NER model. I write the spec before the code, ship behind flags, and check production before I call something done."
   },
   "experience": {
     "title": "Experience",
     "items": {
       "thanx-toe": {
-        "description": "Own mobile app operations for 334 merchant apps on the Technical Operations team, building AI agents, internal APIs, and automation to scale per-merchant work across the fleet.",
+        "description": "Mobile platform engineering for a fleet of 334 white-label iOS and Android apps: build and release pipelines, push notification infrastructure, store publishing, and internal APIs, with day-to-day operations automated through AI agents.",
         "highlights": [
+          "Led the fleet-wide migration of iOS push from yearly-expiring APNs certificates to non-expiring token auth (.p8) across 178 branded apps, using a LaunchDarkly-gated rollout with cert fallback, then retired the renewal cron. Automated and self-verified per-merchant Android FCM wiring (207 apps) and suppressed guaranteed-to-fail sends from 539 disabled merchants. The fleet now delivers ~4M notifications every 4 hours at >99% acceptance on both platforms.",
           "Converted 24+ operational runbooks into reusable Claude Code commands, driving org-wide adoption of AI-assisted operations.",
           "Cut Android CI builds by 56% and local builds by 84% (5m29s to 54s) across 334 merchant app flavors through Gradle JVM tuning.",
           "Built a multi-agent launch-detection system that monitors app go-lives, posts AI-generated summaries to Slack, and integrates Looker signup and error data.",
-          "Automated Apple Push Notification (APNs) certificate renewal with a scheduled job and alerting, removing manual toil and outage risk across the fleet.",
           "Built mobile release tooling for hotfixes and staged-rollout control, shipping 18+ app updates while making releases faster and safer to operate.",
           "Scaled per-merchant work across 334 apps by automating onboarding steps including Firebase setup, store accounts, mobile payments, and custom fonts.",
           "Built Zendesk support-automation triggers for membership, account, and error-handling flows to reduce manual support handling."
@@ -78,7 +79,7 @@
     }
   },
   "resumePdf": {
-    "summary": "Operations and platform engineer with 7+ years building backend services, developer tooling, and automation for consumer-facing platforms (AMC Networks, GameStop, Rappi, Thanx). Currently own mobile-app operations for 334 merchant apps at Thanx, building AI-assisted automation (Claude agents, agentic workflows) for release, certificate, monitoring, and onboarding workflows, and cutting Android build times by up to 84%. Comfortable across the stack (Node.js/TypeScript, Ruby, Java, Go) with AWS, Docker, and infrastructure-as-code."
+    "summary": "Mobile platform engineer with 7+ years of backend and platform work (AMC Networks, GameStop, Rappi, Thanx). At Thanx I own the build, release, push, and publishing infrastructure for 334 white-label iOS and Android apps and automate its operations with Claude-based agents; led the migration of iOS push for 178 apps to token auth and cut Android builds by up to 84%. Work across Node.js/TypeScript, Python, Ruby, and Java with AWS, Docker, CI/CD, and infrastructure-as-code. Outside work I build full-stack products end to end, including a clinical records system in daily use and a custom PyTorch NER model."
   },
   "projects": {
     "title": "Projects",
@@ -91,8 +92,8 @@
       "aps-ai-brain": {
         "description": "Designed a multi-agent cognitive system (AI Brain) for team operations with structured memory, workflow automation, and scoped agents. Led conversion of 24+ runbooks into reusable Claude commands via thanx-claude-plugins, enabling company-wide AI-assisted operational automation."
       },
-      "apns-cert-automation": {
-        "description": "Automated Apple Push Notification certificate renewal via a cron job that detects expiring certificates and renews them automatically. Includes Slack webhook alerts and monitoring, eliminating a manual process that previously risked push notification outages for merchant apps."
+      "push-reliability": {
+        "description": "Led the move of iOS push for 178 branded apps from yearly-expiring APNs certificates to non-expiring token auth, and automated per-merchant Android FCM wiring. Provisioned non-expiring .p8 keys by script across 89 Apple teams (the same credential that powers Live Activities), then switched iOS push to token auth behind a LaunchDarkly flag with cert fallback: pilot, verification at production scale (652k notifications, 99.7% delivered, zero credential failures), and a fleet-wide flag inversion covering 178 apps. Retired the certificate renewal cron and its manual session-refresh procedure. On Android, automated and self-verified per-merchant FCM wiring at onboarding, fixed silently failing apps, and suppressed sends from 539 disabled merchants."
       },
       "android-build-optimization": {
         "description": "Optimized Gradle JVM configuration for Android build flavors across 334 merchant apps. Achieved 55.9% faster CI builds on CircleCI and 83.6% faster local builds (from 5m29s to 54s), reducing engineering time and CI costs company-wide."
@@ -102,6 +103,12 @@
       },
       "fastlane-release-pipeline": {
         "description": "Built a cache layer for Fastlane's fetch_app_configuration to eliminate redundant API calls during builds. Fixed critical pipeline blockers affecting all iOS releases, discovered workarounds for Apple-side issues, and modernized the release cut runbook with a data-driven validation approach."
+      },
+      "dialectica": {
+        "description": "Clinical records system used daily by a practicing psychologist, which I built and run end to end. It replaces paper DBT diary cards with structured patient, session, and weekly-diary records, chain analyses, and a progress dashboard, kept in sync with Google Sheets and Drive. Because it holds health data covered by Argentina's data protection law (Ley 25.326), it runs self-hosted on an encrypted disk with Firebase Auth, an audit log, and nightly encrypted backups to Cloudflare R2. React and TypeScript frontend, Python/Flask and PostgreSQL backend, GitHub Actions deploys, a staging environment, and Grafana observability."
+      },
+      "get-healthy": {
+        "description": "Food-label scanner that flags potentially harmful ingredients using a NER model I trained in PyTorch for Spanish-language labels. The Kotlin Multiplatform app runs OCR on-device with ML Kit and sends the text to a Python/Flask service, where a BiLSTM+CRF model extracts ingredients and scores them against a database of 750+ additives. Tokens the model doesn't recognize are stored to feed a retraining pipeline, and the stack runs self-hosted with Prometheus, Loki, and Grafana."
       },
       "amc-ingest-script": {
         "description": "Built an automated pipeline that fetches streaming schedule data from Nielsen via FTP, enriches it through a CMS, and stores assets in Cloudinary. Runs on AWS Batch for scalable execution with CloudWatch monitoring and Splunk logging, replacing a manual workflow and ensuring up-to-date scheduling data across AMC's platforms."
