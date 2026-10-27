@@ -16,7 +16,7 @@ export function ResumeDocument() {
   const featured = resume.projects.filter((p) => p.featured);
 
   return (
-    <div className="resume-print hidden bg-white px-12 py-10 font-sans text-[13px] leading-snug text-[#2a241f] print:block">
+    <div className="resume-print hidden bg-white px-12 pt-10 font-sans text-[13px] leading-snug text-[#2a241f] print:block">
       <header>
         <h1 className="font-display text-3xl font-semibold text-[#2a241f]">{name}</h1>
         <p className="mt-1 text-sm font-semibold uppercase tracking-widest text-[#a8533c]">
